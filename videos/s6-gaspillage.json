@@ -1,0 +1,21 @@
+{
+  "slug": "s6-gaspillage",
+  "sprint": "Sprint 6 — Repas",
+  "story": "6.7 — Suivi du gaspillage par pesées (FR-125)",
+  "title": "Peser les restes pour moins jeter",
+  "enregistre_le": "2026-11-05T14:15:58.710Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Après le service, la cuisine pèse les restes de production et les retours d’assiettes."
+    },
+    {
+      "t": 12,
+      "texte": "Le ratio par couvert se calcule aussitôt ; la pesée est journalisée et ne concerne qu’un repas, jamais une personne."
+    },
+    {
+      "t": 19,
+      "texte": "Sur quatre semaines : la tendance par repas, par jour et les plats les plus jetés. Un repas non pesé reste vide, sans estimation. Export CSV pour la mesure avant/après."
+    }
+  ]
+}
