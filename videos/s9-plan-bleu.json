@@ -1,0 +1,17 @@
+{
+  "slug": "s9-plan-bleu",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "10.20 — Plan bleu / PCA, partie non nominative (FR-225)",
+  "title": "Le plan bleu à jour, imprimable, sans liste nominative",
+  "enregistre_le": "2026-11-05T19:38:43.697Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Procédures, fiches réflexes, pièce rafraîchie, inventaire, contacts : la direction valide une version, qui devient la seule en vigueur."
+    },
+    {
+      "t": 14,
+      "texte": "À l’impression, la liste nominative des résidents est remplacée par un renvoi au poste local : elle ne quitte jamais l’établissement."
+    }
+  ]
+}
