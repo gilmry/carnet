@@ -1,0 +1,17 @@
+{
+  "slug": "s6-egalim",
+  "sprint": "Sprint 6 — Repas",
+  "story": "6.8 — EGALIM : origine et part des produits durables (FR-126)",
+  "title": "Les taux EGALIM, calculés au fil des achats",
+  "enregistre_le": "2026-11-05T18:09:47.391Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La cuisine saisit ses achats, ou importe le fichier du fournisseur : famille, label, origine, montant."
+    },
+    {
+      "t": 9,
+      "texte": "Les taux de l’année se recalculent face aux seuils : 50 % de produits durables dont 20 % bio, 60 % des viandes et poissons. Les montants restent réservés à la direction."
+    }
+  ]
+}
