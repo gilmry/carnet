@@ -3,7 +3,7 @@
   "sprint": "Sprint 0 — Fondations",
   "story": "1.1 — Instanciation du kit et gates plancher verts à vide (FR-001)",
   "title": "Parcours de référence — la plateforme répond",
-  "enregistre_le": "2026-11-05T04:40:40.115Z",
+  "enregistre_le": "2026-11-05T05:21:52.630Z",
   "narration": [
     {
       "t": 0,
@@ -23,7 +23,7 @@
     },
     {
       "t": 25,
-      "texte": "Aucune capacité métier encore : la valeur du Sprint 0, c'est que tout ce qui suivra sera vérifié par les mêmes gates."
+      "texte": "Tout ce qui suivra sera vérifié par les mêmes gates : c'est la valeur du Sprint 0."
     }
   ]
 }

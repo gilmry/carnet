@@ -1,0 +1,49 @@
+{
+  "slug": "s0-story-1-4-etablissement",
+  "sprint": "Sprint 0 — Fondations",
+  "story": "1.4 — Création d'un établissement (tenant) et paramètres d'établissement (FR-003)",
+  "title": "Un établissement naît, sa direction en prend la main",
+  "enregistre_le": "2026-11-05T05:23:16.382Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Story 1.4 : le superviseur de plateforme crée un établissement — le tenant. Toutes les données en porteront l'identifiant."
+    },
+    {
+      "t": 7,
+      "texte": "1) Le superviseur s'authentifie par son jeton (transitoire : les comptes et le MFA arrivent au Sprint 1)."
+    },
+    {
+      "t": 18,
+      "texte": "2) Nom, slug (adresse publique), adresse, gestionnaire : des données fictives, comme toujours dans cette vitrine."
+    },
+    {
+      "t": 26,
+      "texte": "3) L'établissement existe. Le jeton de direction initial est remis une seule fois — il ne sera jamais réaffiché."
+    },
+    {
+      "t": 34,
+      "texte": "4) La direction, avec son jeton, ouvre les paramètres de son établissement."
+    },
+    {
+      "t": 45,
+      "texte": "5) Téléphone de l'accueil, 63 chambres : les modules à venir (site, livret) liront ces paramètres par l'API."
+    },
+    {
+      "t": 53,
+      "texte": "6) Enregistré avec horodatage et auteur : version 2. Une modification fondée sur une version périmée serait refusée."
+    },
+    {
+      "t": 59,
+      "texte": "7) Pendant ce temps, une autre modification est passée (version 3). L'écran, lui, croit encore à la version 2…"
+    },
+    {
+      "t": 68,
+      "texte": "8) Refus 409 : rien n'est écrasé. La direction recharge et repart de la version courante."
+    },
+    {
+      "t": 76,
+      "texte": "Et un compte d'un autre établissement obtiendrait 404 sur ces mêmes routes : l'isolation est testée sur chaque route tenantée."
+    }
+  ]
+}
