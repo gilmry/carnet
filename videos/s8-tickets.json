@@ -1,0 +1,21 @@
+{
+  "slug": "s8-tickets",
+  "sprint": "Sprint 7 — Services et maintenance",
+  "story": "8.3 et 8.4 — Tickets de maintenance (FR-206, FR-207)",
+  "title": "Une panne signalée ne se perd plus",
+  "enregistre_le": "2026-11-05T14:43:43.647Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Au comptoir, une résidente signale que son radiateur ne chauffe plus : l’accueil déclare le ticket pour elle, sans la nommer."
+    },
+    {
+      "t": 10,
+      "texte": "Le ticket est numéroté et la maintenance est prévenue. Le numéro va sur l’accusé remis à la résidente."
+    },
+    {
+      "t": 26,
+      "texte": "Priorisé, intervention tracée, clos avec compte rendu : l’accueil peut répondre à la résidente, et la preuve reste au journal."
+    }
+  ]
+}
