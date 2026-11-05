@@ -1,0 +1,21 @@
+{
+  "slug": "s9-conformite",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "10.12 — Registre de conformité : obligations, échéances, preuves (FR-217)",
+  "title": "Trente-cinq obligations, plus aucune de mémoire",
+  "enregistre_le": "2026-11-05T16:35:35.662Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La direction importe les 35 obligations légales de la résidence : projet d’établissement, DUERP, ascenseurs, légionelle…"
+    },
+    {
+      "t": 9,
+      "texte": "Chacune a son responsable et sa règle d’échéance ; les échues remontent en tête."
+    },
+    {
+      "t": 21,
+      "texte": "La mise à jour du DUERP est enregistrée avec sa preuve : la prochaine échéance est recalculée depuis la date réelle."
+    }
+  ]
+}
