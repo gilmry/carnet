@@ -1,0 +1,21 @@
+{
+  "slug": "s7-evenements",
+  "sprint": "Sprint 7 — Services et maintenance",
+  "story": "7.6 — Registre des événements indésirables (FR-205)",
+  "title": "Les incidents tracés, sans aucune donnée médicale",
+  "enregistre_le": "2026-11-05T15:51:42.763Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Une porte coupe-feu est bloquée par un chariot : l’agent le déclare, avec ce qu’il a fait tout de suite."
+    },
+    {
+      "t": 12,
+      "texte": "La fiche est numérotée, la direction est prévenue. Aucun champ ne permet de saisir un soin ou un diagnostic."
+    },
+    {
+      "t": 24,
+      "texte": "La direction qualifie, clôt, et compte les événements par mois et par type, sans nom, pour le CVS."
+    }
+  ]
+}
