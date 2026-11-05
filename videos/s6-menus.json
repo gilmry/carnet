@@ -1,9 +1,9 @@
 {
   "slug": "s6-menus",
   "sprint": "Sprint 6 — Repas",
-  "story": "6.1 — Menus publiés une fois (FR-119)",
-  "title": "Le menu, saisi une fois, partout juste",
-  "enregistre_le": "2026-11-05T13:25:48.547Z",
+  "story": "6.1 et 6.11 — Menus publiés une fois, allergènes par plat (FR-119, FR-129)",
+  "title": "Le menu, saisi une fois, partout juste, allergènes compris",
+  "enregistre_le": "2026-11-05T13:48:45.392Z",
   "narration": [
     {
       "t": 0,
@@ -14,12 +14,24 @@
       "texte": "Un déjeuner sans plat principal ne se publie pas."
     },
     {
-      "t": 25,
+      "t": 22,
+      "texte": "Un plat sans fiche d’allergènes ne se publie pas non plus : la cuisine coche les 14 allergènes réglementaires, ou « aucun » explicitement."
+    },
+    {
+      "t": 55,
+      "texte": "Les fiches ne parlent que des plats : aucun allergène n’est jamais rattaché à un résident."
+    },
+    {
+      "t": 66,
       "texte": "Rupture d’approvisionnement : le menu publié se modifie, la nouvelle version remplace l’ancienne partout ; l’ancienne reste au registre."
     },
     {
-      "t": 33,
-      "texte": "Sur le site : le menu de la semaine, avec la mention « menu modifié ». Jamais de régime ni de nom."
+      "t": 74,
+      "texte": "Chaque version servie garde les allergènes affichés ce jour-là : la preuve en cas de contrôle."
+    },
+    {
+      "t": 83,
+      "texte": "Sur le site : le menu de la semaine, les allergènes de chaque plat et la mention « menu modifié ». Jamais de régime ni de nom."
     }
   ]
 }
