@@ -1,0 +1,17 @@
+{
+  "slug": "s9-cvs",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "10.14 à 10.16 — Conseil de la vie sociale (FR-219 à FR-221)",
+  "title": "Le CVS : mandats, convocation à J-8, compte rendu validé",
+  "enregistre_le": "2026-11-05T19:09:49.037Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Les membres du conseil de la vie sociale ont un mandat : collège, fonction, début et fin. Un seul président à la fois."
+    },
+    {
+      "t": 16,
+      "texte": "La convocation part au moins 8 jours avant, ordre du jour compris, et s’annonce sur l’écran du hall. Après la séance : compte rendu, validation du président, publication."
+    }
+  ]
+}
