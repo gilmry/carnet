@@ -1,0 +1,17 @@
+{
+  "slug": "s9-sanitaire",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "8.6 — Relevés sanitaires périodiques et fichier sanitaire (FR-209)",
+  "title": "Le fichier sanitaire tenu point par point, chaque mois",
+  "enregistre_le": "2026-11-05T20:37:45.800Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Chaque point de puisage du bâtiment est déclaré ; la maintenance relève les températures chaque mois, les analyses chaque année."
+    },
+    {
+      "t": 12,
+      "texte": "Un relevé non conforme ouvre un ticket de maintenance et alerte la direction ; le fichier de l’année s’exporte."
+    }
+  ]
+}
