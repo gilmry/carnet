@@ -1,0 +1,21 @@
+{
+  "slug": "s4-3-accueil-notifications",
+  "sprint": "Sprint 4 — Séjours temporaires",
+  "story": "4.7 et 4.8 — Gestion des réservations par l’accueil, notifications (FR-105, FR-106)",
+  "title": "L’accueil confirme, la cuisine est prévenue",
+  "enregistre_le": "2026-11-05T12:31:32.090Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "L’accueil voit toutes les réservations, quel que soit le canal ; les coordonnées ne sont déchiffrées que pour lui."
+    },
+    {
+      "t": 10,
+      "texte": "Acompte reçu par chèque : la réservation est confirmée, sans prestataire de paiement. Modifier ou annuler suit le même chemin."
+    },
+    {
+      "t": 19,
+      "texte": "Chaque rôle reçoit ce qui le concerne : l’accueil sans nom de client, la cuisine les seuls comptes de repas — jamais de santé."
+    }
+  ]
+}

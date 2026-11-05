@@ -1,0 +1,25 @@
+{
+  "slug": "s4-1-calendrier-legionelle",
+  "sprint": "Sprint 4 — Séjours temporaires",
+  "story": "4.1 et 8.1 — Calendrier des logements temporaires, relevés légionelle (FR-100, FR-108)",
+  "title": "Le calendrier des logements, et l’eau qui doit être sûre",
+  "enregistre_le": "2026-11-05T12:30:09.709Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Un état par jour et par logement, écrit en toutes lettres. La villa, jamais purgée, porte « purge requise »."
+    },
+    {
+      "t": 12,
+      "texte": "Blocage motivé, journalisé ; deux blocages ne se chevauchent jamais, la base le garantit même à la seconde près."
+    },
+    {
+      "t": 21,
+      "texte": "Relevés légionelle : saisis en direct ou recopiés de la fiche papier, avec l’agent qui a relevé."
+    },
+    {
+      "t": 35,
+      "texte": "45 °C à l’eau chaude : non conforme, la direction est alertée. Un relevé ne se corrige jamais ; il s’annule avec un motif."
+    }
+  ]
+}

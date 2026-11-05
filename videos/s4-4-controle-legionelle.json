@@ -1,0 +1,25 @@
+{
+  "slug": "s4-4-controle-legionelle",
+  "sprint": "Sprint 4 — Séjours temporaires",
+  "story": "8.2 — Contrôle légionelle bloquant avant occupation (FR-109)",
+  "title": "Pas d’arrivée sans purge",
+  "enregistre_le": "2026-11-05T12:32:18.889Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Un séjour pris au guichet arrive aujourd’hui dans la villa, inoccupée depuis longtemps et jamais purgée."
+    },
+    {
+      "t": 8,
+      "texte": "Arrivée bloquée : purge manquante. La direction est alertée ; seule elle pourrait lever le blocage, avec un motif."
+    },
+    {
+      "t": 22,
+      "texte": "La maintenance purge et saisit un relevé conforme…"
+    },
+    {
+      "t": 30,
+      "texte": "… et l’arrivée est enregistrée : les nuits passent « occupé » au calendrier."
+    }
+  ]
+}

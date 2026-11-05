@@ -1,0 +1,21 @@
+{
+  "slug": "s5-agenda",
+  "sprint": "Sprint 5 — Vie sociale",
+  "story": "5.1 — Agenda des activités sur 15 jours (FR-110)",
+  "title": "Le planning des animations, une seule source",
+  "enregistre_le": "2026-11-05T12:32:58.521Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "L’agenda remplace le planning papier du bureau : animations, ateliers et sorties sur 15 jours glissants."
+    },
+    {
+      "t": 21,
+      "texte": "Un atelier hebdomadaire : une occurrence par semaine, chacune aura ses propres inscriptions."
+    },
+    {
+      "t": 32,
+      "texte": "Publiée, la sortie paraît sur le site ; les brouillons restent au bureau. Le hall et le planning imprimé suivront la même source."
+    }
+  ]
+}
