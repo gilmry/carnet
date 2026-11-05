@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carnet — vitrine</title>
+  <meta name="description" content="Documentation vivante de Carnet, plateforme numérique et de conformité des résidences autonomie : chaque story livrée est filmée sur son parcours de référence." />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font: 16px/1.5 system-ui, sans-serif; margin: 0; background: #f6f7f9; color: #111827; }
+    @media (prefers-color-scheme: dark) { body { background: #0f172a; color: #e5e7eb; } .carte { background: #1e293b !important; } .chapitres { color: #cbd5e1 !important; } }
+    header { background: #1f2937; color: #fff; padding: 24px 16px; }
+    header h1 { margin: 0 0 4px; font-size: 22px; }
+    header p { margin: 0; opacity: .85; font-size: 14px; max-width: 920px; }
+    main { max-width: 920px; margin: 24px auto; padding: 0 16px; display: grid; gap: 24px; }
+    .carte { background: #fff; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08); padding: 16px; }
+    .carte h2 { margin: 0 0 12px; font-size: 18px; }
+    .meta, .date { font-size: 13px; color: #6b7280; margin: 0 0 6px; }
+    video, img { width: 100%; border-radius: 8px; background: #000; margin-bottom: 8px; }
+    .chapitres { margin: 12px 0 0; padding-left: 0; list-style: none; font-size: 14px; color: #374151; }
+    .chapitres li { padding: 2px 0; }
+    .chapitres .t { display: inline-block; width: 3em; color: #6b7280; font-variant-numeric: tabular-nums; }
+    footer { text-align: center; color: #6b7280; font-size: 13px; padding: 24px 16px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Carnet — vitrine (preuve de valeur)</h1>
+    <p><strong>Carnet</strong> remplace les cahiers de l'accueil : la plateforme numérique et de conformité des résidences autonomie, construite d'abord avec la Résidence de la Médaille Militaire (Hyères). Chaque story livrée est rejouée sous trois angles sur le même parcours de référence : correctness (gate <code>e2e</code>), apparence (gate <code>visuel</code>) et preuve de valeur (ce film). Aucune donnée réelle : tout est fictif.</p>
+  </header>
+  <main>
+      <article class="carte" id="s0-parcours-de-reference">
+        <p class="meta">Sprint 0 — Fondations · story 1.1 — Instanciation du kit et gates plancher verts à vide (FR-001)</p>
+        <h2>Parcours de référence — la plateforme répond</h2>
+        <video controls preload="metadata" src="videos/s0-parcours-de-reference.webm" poster="images/s0-parcours-de-reference.png"></video>
+        <img src="images/s0-parcours-de-reference.png" alt="Capture — Parcours de référence — la plateforme répond" loading="lazy" />
+        <ol class="chapitres"><li><span class="t">00s</span> Carnet — Sprint 0, story 1.1 : le socle. Un clone, une commande, et la plateforme répond.</li><li><span class="t">06s</span> 1) La page Astro se charge, servie par le composant A (actix-web) sur la même origine que l&#39;API.</li><li><span class="t">12s</span> 2) L&#39;îlot Svelte interroge GET /api/v1/sante — uniquement par le client TypeScript généré depuis openapi/a.json.</li><li><span class="t">19s</span> 3) La plateforme répond « ok » : la base PostgreSQL 16 est joignable, les migrations réversibles sont appliquées.</li><li><span class="t">25s</span> Aucune capacité métier encore : la valeur du Sprint 0, c&#39;est que tout ce qui suivra sera vérifié par les mêmes gates.</li></ol>
+        <p class="date">Enregistré le 2026-11-05</p>
+      </article></main>
+  <footer>Documentation vivante générée par <code>harness/demo</code> — méthode <a href="https://github.com/gilmry/foyer">Foyer</a>, projet RMM (dépôt privé). 1 scène(s).</footer>
+</body>
+</html>
