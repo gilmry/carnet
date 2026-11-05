@@ -3,7 +3,7 @@
   "sprint": "Sprint 6 — Repas",
   "story": "6.1, 6.11 et 6.9 — Menus publiés une fois, allergènes par plat, registre de composition (FR-119, FR-129, FR-127)",
   "title": "Le menu, saisi une fois, partout juste, allergènes compris",
-  "enregistre_le": "2026-11-05T17:19:45.567Z",
+  "enregistre_le": "2026-11-05T17:45:12.439Z",
   "narration": [
     {
       "t": 0,
@@ -30,7 +30,7 @@
       "texte": "Chaque version servie garde les allergènes affichés ce jour-là : la preuve en cas de contrôle."
     },
     {
-      "t": 83,
+      "t": 82,
       "texte": "Le registre de composition : pour un jour donné, ce qui a vraiment été servi, avec la version en vigueur à l’heure du repas."
     },
     {
