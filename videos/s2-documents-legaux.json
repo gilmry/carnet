@@ -1,0 +1,21 @@
+{
+  "slug": "s2-documents-legaux",
+  "sprint": "Sprint 2 — Conformité documentaire",
+  "story": "10.1 et 10.9 — Documents légaux versionnés, documents obligatoires publiés (FR-021, FR-028)",
+  "title": "Une seule version en vigueur, publiée d’office",
+  "enregistre_le": "2026-11-05T12:03:58.845Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Règlement, livret, charte, projet d’établissement : chaque document a ses versions, une seule est en vigueur."
+    },
+    {
+      "t": 15,
+      "texte": "Le projet 2021-2025 est en vigueur… et signalé échu : son renouvellement quinquennal est dépassé."
+    },
+    {
+      "t": 24,
+      "texte": "Sur le site, chaque document obligatoire a une adresse stable qui sert toujours la version en vigueur."
+    }
+  ]
+}

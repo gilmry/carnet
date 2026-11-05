@@ -1,0 +1,25 @@
+{
+  "slug": "s4-sejour-en-ligne",
+  "sprint": "Sprint 4 — Séjours temporaires",
+  "story": "4.2, 4.3, 4.4 et 4.5 — Disponibilités publiques, photos, devis, réservation en ligne (FR-101 à FR-104)",
+  "title": "Réserver la villa en ligne, sans téléphone",
+  "enregistre_le": "2026-11-05T12:06:56.345Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La direction publie la villa : à la semaine, du samedi au samedi, avec ses vraies photos et son tarif du référentiel."
+    },
+    {
+      "t": 10,
+      "texte": "Un visiteur, sans compte, voit les nuits libres sur douze mois — ni nom, ni motif de blocage."
+    },
+    {
+      "t": 23,
+      "texte": "Devis immédiat, calculé par le serveur depuis le référentiel : aucun prix ne vient du navigateur."
+    },
+    {
+      "t": 36,
+      "texte": "Les nuits sont gardées 30 minutes en attendant l’acompte ; le client relit sa réservation par un lien secret reçu par courriel."
+    }
+  ]
+}

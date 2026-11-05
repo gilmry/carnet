@@ -1,0 +1,21 @@
+{
+  "slug": "s2-mesure-avant-apres",
+  "sprint": "Sprint 3 — Mesure et projet",
+  "story": "10.10 et 10.11 — Relevé chronométré et tableau avant/après (FR-029, FR-030)",
+  "title": "Combien d’heures l’outil rend à l’accueil",
+  "enregistre_le": "2026-11-05T12:04:46.148Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La preuve de valeur se mesure : temps relevés par rôle, jamais par personne, avant puis après l’outil."
+    },
+    {
+      "t": 18,
+      "texte": "Import en deux temps : un aperçu d’abord, rien n’est enregistré sans confirmation."
+    },
+    {
+      "t": 39,
+      "texte": "Tableau avant/après : heures libérées par semaine, sans aucune valorisation en euros (données fictives)."
+    }
+  ]
+}

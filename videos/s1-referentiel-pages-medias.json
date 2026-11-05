@@ -1,0 +1,37 @@
+{
+  "slug": "s1-referentiel-pages-medias",
+  "sprint": "Sprint 1 — Site et référentiel",
+  "story": "3.7, 3.3 et 3.4 — Référentiel unique, pages du site, médiathèque (FR-018, FR-014, FR-015)",
+  "title": "Un tarif saisi une fois, partout juste",
+  "enregistre_le": "2026-11-05T12:02:40.169Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le référentiel unique : chaque tarif, horaire ou contact se saisit une seule fois, avec sa date d’effet."
+    },
+    {
+      "t": 22,
+      "texte": "La semaine de la villa 85 vit ici aussi : le devis en ligne la lira, sans copie (valeurs fictives)."
+    },
+    {
+      "t": 34,
+      "texte": "Un montant écrit en dur dans une page est refusé : il serait faux le jour où le tarif change."
+    },
+    {
+      "t": 45,
+      "texte": "On insère le jeton du référentiel : l’aperçu affiche la valeur du jour."
+    },
+    {
+      "t": 60,
+      "texte": "Médiathèque : texte alternatif obligatoire, image ré-encodée sans ses métadonnées (dont la géolocalisation)."
+    },
+    {
+      "t": 68,
+      "texte": "Des résidents sont reconnaissables : la photo est bloquée tant que la direction n’a pas attesté leur consentement."
+    },
+    {
+      "t": 76,
+      "texte": "Consentement attesté, tracé : la photo peut paraître sur le site."
+    }
+  ]
+}

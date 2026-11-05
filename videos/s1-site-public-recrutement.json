@@ -1,0 +1,25 @@
+{
+  "slug": "s1-site-public-recrutement",
+  "sprint": "Sprint 1 — Site et référentiel",
+  "story": "3.1, 3.2, 3.5 et 3.6 — Site public statique, valeurs du jour, accessibilité, recrutement (FR-013, FR-016, FR-017)",
+  "title": "Le site de la résidence, toujours à jour",
+  "enregistre_le": "2026-11-05T12:03:27.092Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le site public : des pages statiques, sans cookie ni traceur, accessibles (audit RGAA automatique à chaque livraison)."
+    },
+    {
+      "t": 9,
+      "texte": "Seules les valeurs du jour viennent de la plateforme : le tarif saisi au référentiel s’affiche ici. Textes du site provisoires."
+    },
+    {
+      "t": 25,
+      "texte": "L’offre paraît sur le site ; un visiteur candidate sans compte, CV en PDF seulement."
+    },
+    {
+      "t": 39,
+      "texte": "Accusé de réception immédiat ; la candidature sera purgée automatiquement deux ans après la clôture."
+    }
+  ]
+}

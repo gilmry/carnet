@@ -1,0 +1,17 @@
+{
+  "slug": "s3-projet-etablissement",
+  "sprint": "Sprint 3 — Mesure et projet",
+  "story": "10.7 et 10.8 — Projet d’établissement : rubriques, fiches actions, indicateurs (FR-027)",
+  "title": "Le projet d’établissement, rubrique par rubrique",
+  "enregistre_le": "2026-11-05T12:05:15.261Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Treize rubriques à rédiger, chacune avec son état ; une rubrique validée puis modifiée redevient « en cours », c’est tracé."
+    },
+    {
+      "t": 18,
+      "texte": "Une fiche action : un objectif, un rôle responsable — jamais une personne — et une échéance dans la période."
+    }
+  ]
+}
