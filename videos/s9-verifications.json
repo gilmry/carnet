@@ -1,0 +1,17 @@
+{
+  "slug": "s9-verifications",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "8.5 — Vérifications périodiques du bâtiment (FR-208)",
+  "title": "Le registre de sécurité, à jour avant la commission",
+  "enregistre_le": "2026-11-05T17:23:20.925Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La maintenance tient les vérifications périodiques : ici, le contrôle quinquennal des ascenseurs."
+    },
+    {
+      "t": 16,
+      "texte": "Prestataire et rapport joints : la prochaine échéance, à cinq ans, rejoint le registre de conformité et ses rappels."
+    }
+  ]
+}
