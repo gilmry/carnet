@@ -1,0 +1,17 @@
+{
+  "slug": "s8-idees",
+  "sprint": "Sprint 8 — Familles & communication",
+  "story": "9.7 — Boîte à idées (FR-216)",
+  "title": "La boîte à idées : de la feuille au hall",
+  "enregistre_le": "2026-11-05T22:09:19.944Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Une idée glissée dans la boîte de l’accueil est saisie et numérotée ; l’auteur peut rester anonyme."
+    },
+    {
+      "t": 10,
+      "texte": "La direction répond : la réponse s’affiche dans le hall, sans le nom de l’auteur sauf son accord, et s’imprime."
+    }
+  ]
+}
