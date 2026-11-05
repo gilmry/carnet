@@ -3,7 +3,7 @@
   "sprint": "Sprint 0 — Fondations",
   "story": "1.1 — Instanciation du kit et gates plancher verts à vide (FR-001)",
   "title": "Parcours de référence — la plateforme répond",
-  "enregistre_le": "2026-11-05T06:16:13.164Z",
+  "enregistre_le": "2026-11-05T06:55:12.516Z",
   "narration": [
     {
       "t": 0,
@@ -11,19 +11,11 @@
     },
     {
       "t": 6,
-      "texte": "1) La page Astro se charge, servie par le composant A (actix-web) sur la même origine que l'API."
+      "texte": "L'îlot Svelte interroge l'API uniquement par le client TypeScript généré depuis le contrat OpenAPI."
     },
     {
-      "t": 12,
-      "texte": "2) L'îlot Svelte interroge GET /api/v1/sante — uniquement par le client TypeScript généré depuis openapi/a.json."
-    },
-    {
-      "t": 19,
-      "texte": "3) La plateforme répond « ok » : la base PostgreSQL 16 est joignable, les migrations réversibles sont appliquées."
-    },
-    {
-      "t": 25,
-      "texte": "Tout ce qui suivra sera vérifié par les mêmes gates : c'est la valeur du Sprint 0."
+      "t": 13,
+      "texte": "Tout ce qui suivra est vérifié par les mêmes gates : c'est la valeur du Sprint 0."
     }
   ]
 }

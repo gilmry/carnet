@@ -1,0 +1,25 @@
+{
+  "slug": "s0-story-2-5-journal-comptes",
+  "sprint": "Sprint 0 — Fondations",
+  "story": "2.5 et 2.1 — Journal d'audit et comptes du personnel (FR-012, FR-008)",
+  "title": "Qui a fait quoi, et chacun son compte",
+  "enregistre_le": "2026-11-05T06:57:38.361Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le journal d'audit : chaque écriture, avec son auteur, son heure et son canal. Personne, direction comprise, ne peut le modifier."
+    },
+    {
+      "t": 8,
+      "texte": "La direction invite l'accueil : chacun son compte, chaque action attribuée à une personne."
+    },
+    {
+      "t": 20,
+      "texte": "Déconnexion, puis reconnexion : mot de passe, puis le code à 6 chiffres du téléphone."
+    },
+    {
+      "t": 34,
+      "texte": "Session ouverte pour 12 heures, cookie protégé ; un accès depuis un autre établissement répondrait « introuvable »."
+    }
+  ]
+}

@@ -3,31 +3,23 @@
   "sprint": "Sprint 0 — Fondations",
   "story": "1.7 — Espaces et logements de l'établissement (FR-005)",
   "title": "Le référentiel des chambres, logements et espaces communs",
-  "enregistre_le": "2026-11-05T06:18:29.583Z",
+  "enregistre_le": "2026-11-05T06:56:54.348Z",
   "narration": [
     {
       "t": 0,
-      "texte": "Story 1.7 : une seule liste des chambres, logements temporaires et espaces communs — celle que liront les séjours, les salles et les admissions."
+      "texte": "Une seule liste des chambres, logements temporaires et espaces communs — celle que liront les séjours, les salles et les admissions."
     },
     {
-      "t": 9,
-      "texte": "1) L'établissement est neuf : la liste est vide, sans erreur. Chaque table de ce genre est cloisonnée par établissement, par construction (RLS)."
+      "t": 13,
+      "texte": "Import CSV : la villa 85 (4 personnes, sans tarif : il vit au référentiel unique), le boulodrome réservable."
     },
     {
-      "t": 18,
-      "texte": "2) Une chambre simple « 101 » : numéro unique dans l'établissement, statut disponible, capacité 1 par défaut."
+      "t": 22,
+      "texte": "Un fichier avec un numéro déjà pris : tout l'import est refusé, rien n'est créé à moitié."
     },
     {
-      "t": 27,
-      "texte": "3) Import CSV : une chambre double, la villa 85 (4 personnes, sans tarif : il vit au référentiel unique), le boulodrome réservable."
-    },
-    {
-      "t": 36,
-      "texte": "4) Un fichier avec un numéro déjà pris : tout l'import est refusé, rien n'est créé à moitié."
-    },
-    {
-      "t": 44,
-      "texte": "5) La chambre 101 passe hors service : le changement est tracé avec son auteur, comme toute renumérotation."
+      "t": 30,
+      "texte": "La chambre 101 passe hors service ; le changement est tracé avec son auteur."
     }
   ]
 }

@@ -1,49 +1,33 @@
 {
   "slug": "s0-story-1-4-etablissement",
   "sprint": "Sprint 0 — Fondations",
-  "story": "1.4 — Création d'un établissement (tenant) et paramètres d'établissement (FR-003)",
+  "story": "1.4 et 2.1 — Création d'un établissement, activation du compte de la direction (FR-003, FR-008, FR-010)",
   "title": "Un établissement naît, sa direction en prend la main",
-  "enregistre_le": "2026-11-05T06:17:37.225Z",
+  "enregistre_le": "2026-11-05T06:56:16.135Z",
   "narration": [
     {
       "t": 0,
-      "texte": "Story 1.4 : le superviseur de plateforme crée un établissement — le tenant. Toutes les données en porteront l'identifiant."
+      "texte": "Le superviseur de plateforme crée un établissement — le tenant — et invite sa direction. Aucun mot de passe ne transite par lui."
     },
     {
-      "t": 7,
-      "texte": "1) Le superviseur s'authentifie par son jeton (transitoire : les comptes et le MFA arrivent au Sprint 1)."
+      "t": 17,
+      "texte": "Invitation envoyée par courriel : un lien personnel, à usage unique, valable 72 heures. (Données fictives.)"
     },
     {
-      "t": 18,
-      "texte": "2) Nom, slug (adresse publique), adresse, gestionnaire : des données fictives, comme toujours dans cette vitrine."
-    },
-    {
-      "t": 26,
-      "texte": "3) L'établissement existe. Le jeton de direction initial est remis une seule fois — il ne sera jamais réaffiché."
+      "t": 25,
+      "texte": "La directrice ouvre le lien et choisit sa phrase de passe : 12 caractères au moins."
     },
     {
       "t": 34,
-      "texte": "4) La direction, avec son jeton, ouvre les paramètres de son établissement."
+      "texte": "Elle scanne le QR code avec son application d'authentification : le second facteur est obligatoire pour tout le personnel."
     },
     {
-      "t": 45,
-      "texte": "5) Téléphone de l'accueil, 63 chambres : les modules à venir (site, livret) liront ces paramètres par l'API."
+      "t": 43,
+      "texte": "Compte actif. Dix codes de récupération sont remis une seule fois, pour le jour où le téléphone se perd."
     },
     {
-      "t": 53,
-      "texte": "6) Enregistré avec horodatage et auteur : version 2. Une modification fondée sur une version périmée serait refusée."
-    },
-    {
-      "t": 59,
-      "texte": "7) Pendant ce temps, une autre modification est passée (version 3). L'écran, lui, croit encore à la version 2…"
-    },
-    {
-      "t": 68,
-      "texte": "8) Refus 409 : rien n'est écrasé. La direction recharge et repart de la version courante."
-    },
-    {
-      "t": 76,
-      "texte": "Et un compte d'un autre établissement obtiendrait 404 sur ces mêmes routes : l'isolation est testée sur chaque route tenantée."
+      "t": 56,
+      "texte": "Paramètres enregistrés avec horodatage et auteur. Une modification fondée sur une version périmée serait refusée : rien ne s'écrase."
     }
   ]
 }
