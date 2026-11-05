@@ -1,0 +1,25 @@
+{
+  "slug": "s6-menus",
+  "sprint": "Sprint 6 — Repas",
+  "story": "6.1 — Menus publiés une fois (FR-119)",
+  "title": "Le menu, saisi une fois, partout juste",
+  "enregistre_le": "2026-11-05T13:25:48.547Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La cuisine saisit la semaine une seule fois : le site, le hall et le papier liront le même menu."
+    },
+    {
+      "t": 13,
+      "texte": "Un déjeuner sans plat principal ne se publie pas."
+    },
+    {
+      "t": 25,
+      "texte": "Rupture d’approvisionnement : le menu publié se modifie, la nouvelle version remplace l’ancienne partout ; l’ancienne reste au registre."
+    },
+    {
+      "t": 33,
+      "texte": "Sur le site : le menu de la semaine, avec la mention « menu modifié ». Jamais de régime ni de nom."
+    }
+  ]
+}

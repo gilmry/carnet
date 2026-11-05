@@ -3,7 +3,7 @@
   "sprint": "Sprint 0 — Fondations",
   "story": "1.4 et 2.1 — Création d'un établissement, activation du compte de la direction (FR-003, FR-008, FR-010)",
   "title": "Un établissement naît, sa direction en prend la main",
-  "enregistre_le": "2026-11-05T12:45:21.426Z",
+  "enregistre_le": "2026-11-05T13:15:24.597Z",
   "narration": [
     {
       "t": 0,
@@ -26,7 +26,7 @@
       "texte": "Compte actif. Dix codes de récupération sont remis une seule fois, pour le jour où le téléphone se perd."
     },
     {
-      "t": 55,
+      "t": 56,
       "texte": "Paramètres enregistrés avec horodatage et auteur. Une modification fondée sur une version périmée serait refusée : rien ne s'écrase."
     }
   ]
