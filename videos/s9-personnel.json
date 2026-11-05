@@ -1,0 +1,17 @@
+{
+  "slug": "s9-personnel",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "10.22 et 10.23 — Échéances employeur et attestations d’honorabilité (FR-227, FR-228)",
+  "title": "Entretiens de parcours et attestations d’honorabilité, sans dossier RH",
+  "enregistre_le": "2026-11-05T20:06:10.917Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Une référence par salarié ou bénévole, jamais de donnée de santé. L’échéance des attestations d’honorabilité se compte sans nom."
+    },
+    {
+      "t": 15,
+      "texte": "L’attestation : le fait et la date, jamais le document. L’entretien de parcours fixe la prochaine échéance."
+    }
+  ]
+}
