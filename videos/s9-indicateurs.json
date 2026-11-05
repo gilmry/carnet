@@ -1,0 +1,17 @@
+{
+  "slug": "s9-indicateurs",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "10.24 — Tableau de bord des indicateurs qualité (FR-318)",
+  "title": "Les indicateurs qualité calculés, sans tableur",
+  "enregistre_le": "2026-11-05T21:11:45.511Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Obligations échues, réclamations, événements indésirables, CVS, prévention : chaque indicateur est calculé depuis son module, par mois ou par année."
+    },
+    {
+      "t": 6,
+      "texte": "« Non mesuré » quand la période est vide, « non disponible » quand le module reste à venir ; chaque carte renvoie à sa source."
+    }
+  ]
+}
