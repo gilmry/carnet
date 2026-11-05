@@ -1,0 +1,21 @@
+{
+  "slug": "s7-liaison",
+  "sprint": "Sprint 7 — Services et maintenance",
+  "story": "7.4 — Cahier de liaison jour / nuit, hors santé (FR-203)",
+  "title": "La nuit transmet, le jour sait, sans cahier papier",
+  "enregistre_le": "2026-11-05T15:28:27.632Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La nuit, la veilleuse écrit ses transmissions. Le cahier rappelle la frontière : hors santé, rien sur les soins."
+    },
+    {
+      "t": 10,
+      "texte": "Le matin, l’équipe de jour la lit et en accuse lecture ; ce que personne n’a lu depuis 24 h remonte en tête."
+    },
+    {
+      "t": 20,
+      "texte": "La gouvernante publie une consigne pour une équipe, valable sur une période."
+    }
+  ]
+}
