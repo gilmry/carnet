@@ -1,0 +1,17 @@
+{
+  "slug": "s6-invites",
+  "sprint": "Sprint 6 — Restauration",
+  "story": "6.4 — Invités aux repas (48 h) (FR-122)",
+  "title": "Déjeuner avec sa mère, au bon prix, sans négocier le délai",
+  "enregistre_le": "2026-11-06T15:53:41.878Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le fils de Madame Exemple veut déjeuner avec elle dimanche en huit, à deux. L’accueil saisit la demande."
+    },
+    {
+      "t": 11,
+      "texte": "Le prix vient du référentiel unique. Moins de 48 h avant le repas, la demande est refusée avec la première date possible — sauf forçage motivé, et la cuisine est alors prévenue."
+    }
+  ]
+}
