@@ -1,0 +1,17 @@
+{
+  "slug": "s6-changements-menu",
+  "sprint": "Sprint 6 — Restauration",
+  "story": "6.3 — Changements de menu (FR-121)",
+  "title": "La feuille du dimanche : l’alternatif sans le redire",
+  "enregistre_le": "2026-11-06T15:26:16.503Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le dimanche, chacun coche sur la feuille les jours où il prend l’alternatif. L’accueil reporte les choix ici."
+    },
+    {
+      "t": 8,
+      "texte": "La cuisine ne reçoit que des nombres : « 1 alternatif ». Jamais de raison ni de régime."
+    }
+  ]
+}
