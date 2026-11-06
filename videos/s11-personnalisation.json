@@ -1,0 +1,21 @@
+{
+  "slug": "s11-personnalisation",
+  "sprint": "Sprint 11 — Plateforme",
+  "story": "1.12 — Personnalisation visuelle par établissement (FR-323)",
+  "title": "Aux couleurs de la résidence, sans sacrifier la lisibilité",
+  "enregistre_le": "2026-11-06T10:17:26.641Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La direction choisit les couleurs et le nom affiché de la résidence."
+    },
+    {
+      "t": 10,
+      "texte": "Un jaune trop clair ne se lit pas sous un texte blanc : la plateforme propose la variante conforme la plus proche."
+    },
+    {
+      "t": 19,
+      "texte": "Le back-office et le site public prennent les couleurs de la résidence ; un clic ramène au thème neutre."
+    }
+  ]
+}

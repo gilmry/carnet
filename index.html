@@ -28,8 +28,17 @@
   <header>
     <h1>Carnet — vitrine (preuve de valeur)</h1>
     <p><strong>Carnet</strong> remplace les cahiers de l'accueil : la plateforme numérique et de conformité des résidences autonomie, construite d'abord avec la Résidence de la Médaille Militaire (Hyères). Chaque story livrée est rejouée sous trois angles sur le même parcours de référence : correctness (gate <code>e2e</code>), apparence (gate <code>visuel</code>) et preuve de valeur (ce film). Aucune donnée réelle : tout est fictif.</p>
+    <p><a href="flux.html">Flux E2E du PRD et leur statut</a></p>
   </header>
   <main>
+      <article class="carte" id="s0-isolation-contrat">
+        <p class="meta">Sprint 0 — Fondations · story 1.2, 1.3, 1.5 et 1.6 — Contrat d’API et isolation des établissements (FR-002, FR-004, FR-007)</p>
+        <h2>Chaque résidence chez elle, un seul contrat d’API</h2>
+        <video controls preload="metadata" src="videos/s0-isolation-contrat.webm" poster="images/s0-isolation-contrat.png"></video>
+        <img src="images/s0-isolation-contrat.png" alt="Capture — Chaque résidence chez elle, un seul contrat d’API" loading="lazy" />
+        <ol class="chapitres"><li><span class="t">00s</span> Connectée, la direction demande les données d’un autre établissement : réponse 404, la même que pour un identifiant inconnu. Rien ne fuit d’une résidence à l’autre.</li><li><span class="t">08s</span> Toute réponse suit le même contrat d’API, généré depuis le code : un champ inconnu est refusé, et chaque route est testée contre le contrat et contre l’isolation à chaque version.</li></ol>
+        <p class="date">Enregistré le 2026-11-06</p>
+      </article>
       <article class="carte" id="s0-parcours-de-reference">
         <p class="meta">Sprint 0 — Fondations · story 1.1 — Instanciation du kit et gates plancher verts à vide (FR-001)</p>
         <h2>Parcours de référence — la plateforme répond</h2>
@@ -92,6 +101,14 @@
         <video controls preload="metadata" src="videos/s11-modules.webm" poster="images/s11-modules.png"></video>
         <img src="images/s11-modules.png" alt="Capture — Chaque résidence n’active que ce qu’elle utilise" loading="lazy" />
         <ol class="chapitres"><li><span class="t">00s</span> Séjours temporaires, restauration, familles, qualité… La direction active les modules utilisés ; le socle reste toujours là.</li><li><span class="t">08s</span> Un module désactivé disparaît des menus et ses routes se ferment ; ses données reviennent intactes à la réactivation.</li></ol>
+        <p class="date">Enregistré le 2026-11-06</p>
+      </article>
+      <article class="carte" id="s11-personnalisation">
+        <p class="meta">Sprint 11 — Plateforme · story 1.12 — Personnalisation visuelle par établissement (FR-323)</p>
+        <h2>Aux couleurs de la résidence, sans sacrifier la lisibilité</h2>
+        <video controls preload="metadata" src="videos/s11-personnalisation.webm" poster="images/s11-personnalisation.png"></video>
+        <img src="images/s11-personnalisation.png" alt="Capture — Aux couleurs de la résidence, sans sacrifier la lisibilité" loading="lazy" />
+        <ol class="chapitres"><li><span class="t">00s</span> La direction choisit les couleurs et le nom affiché de la résidence.</li><li><span class="t">10s</span> Un jaune trop clair ne se lit pas sous un texte blanc : la plateforme propose la variante conforme la plus proche.</li><li><span class="t">19s</span> Le back-office et le site public prennent les couleurs de la résidence ; un clic ramène au thème neutre.</li></ol>
         <p class="date">Enregistré le 2026-11-06</p>
       </article>
       <article class="carte" id="s2-documents-legaux">
@@ -334,6 +351,6 @@
         <ol class="chapitres"><li><span class="t">00s</span> La maintenance tient les vérifications périodiques : ici, le contrôle quinquennal des ascenseurs.</li><li><span class="t">16s</span> Prestataire et rapport joints : la prochaine échéance, à cinq ans, rejoint le registre de conformité et ses rappels.</li></ol>
         <p class="date">Enregistré le 2026-11-06</p>
       </article></main>
-  <footer>Documentation vivante générée par <code>harness/demo</code> — méthode <a href="https://github.com/gilmry/foyer">Foyer</a>, projet RMM (dépôt privé). 38 scène(s).</footer>
+  <footer>Documentation vivante générée par <code>harness/demo</code> — méthode <a href="https://github.com/gilmry/foyer">Foyer</a>, projet RMM (dépôt privé). 40 scène(s).</footer>
 </body>
 </html>

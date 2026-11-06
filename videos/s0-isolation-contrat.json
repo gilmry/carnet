@@ -1,0 +1,17 @@
+{
+  "slug": "s0-isolation-contrat",
+  "sprint": "Sprint 0 — Fondations",
+  "story": "1.2, 1.3, 1.5 et 1.6 — Contrat d’API et isolation des établissements (FR-002, FR-004, FR-007)",
+  "title": "Chaque résidence chez elle, un seul contrat d’API",
+  "enregistre_le": "2026-11-06T09:58:07.611Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Connectée, la direction demande les données d’un autre établissement : réponse 404, la même que pour un identifiant inconnu. Rien ne fuit d’une résidence à l’autre."
+    },
+    {
+      "t": 8,
+      "texte": "Toute réponse suit le même contrat d’API, généré depuis le code : un champ inconnu est refusé, et chaque route est testée contre le contrat et contre l’isolation à chaque version."
+    }
+  ]
+}
