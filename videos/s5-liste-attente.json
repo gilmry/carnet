@@ -1,0 +1,17 @@
+{
+  "slug": "s5-liste-attente",
+  "sprint": "Sprint 5 — Vie sociale",
+  "story": "5.3 — Places et liste d’attente (FR-112)",
+  "title": "Plus personne n’arbitre à la main qui part en sortie",
+  "enregistre_le": "2026-11-06T13:12:27.694Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Une seule place : Monsieur Durand passe en liste d’attente, jamais au-delà des places."
+    },
+    {
+      "t": 8,
+      "texte": "Madame Exemple se désiste : Monsieur Durand prend la place, marqué « à prévenir ». Une fois prévenu, l’animatrice l’indique."
+    }
+  ]
+}
