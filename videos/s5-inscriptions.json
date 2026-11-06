@@ -1,0 +1,17 @@
+{
+  "slug": "s5-inscriptions",
+  "sprint": "Sprint 5 — Vie sociale",
+  "story": "5.2 — Inscription d’un résident par un référent (FR-111)",
+  "title": "Le résident s’inscrit sans toucher un écran",
+  "enregistre_le": "2026-11-06T12:06:08.234Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Madame Exemple a coché la sortie au marché sur sa feuille papier. L’animatrice ouvre les inscriptions de l’activité."
+    },
+    {
+      "t": 11,
+      "texte": "L’inscription garde son canal (papier, téléphone, voix…), son auteur et son heure. Complète, la sortie ouvre une liste d’attente ; un désistement promeut le suivant, « à prévenir »."
+    }
+  ]
+}

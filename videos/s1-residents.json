@@ -1,0 +1,17 @@
+{
+  "slug": "s1-residents",
+  "sprint": "Sprint 1 — Socle",
+  "story": "ADR-017 — Registre des résidents (identité et chambre, sans donnée de santé)",
+  "title": "Le registre des résidents : un nom, une chambre, rien de médical",
+  "enregistre_le": "2026-11-06T11:57:58.230Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "L’accueil enregistre chaque résident : nom, prénom, chambre, date d’entrée. Rien de médical : la santé reste sur le poste local."
+    },
+    {
+      "t": 10,
+      "texte": "Une chambre ne reçoit pas plus de résidents que ses places ; l’import du registre est tout ou rien, et un résident sorti reste dans l’historique."
+    }
+  ]
+}
