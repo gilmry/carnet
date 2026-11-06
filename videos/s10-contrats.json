@@ -1,0 +1,17 @@
+{
+  "slug": "s10-contrats",
+  "sprint": "Sprint 10 — Conformité",
+  "story": "10.5 — Suivi des délais contractuels (FR-025)",
+  "title": "Remise à 15 jours, signature à 1 mois, avenant à 6 mois : sans les suivre de mémoire",
+  "enregistre_le": "2026-11-06T20:59:24.553Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "À l’ouverture du suivi, les trois échéances du CASF sont calculées depuis la date d’entrée ; un DIPC n’a que la remise et la signature."
+    },
+    {
+      "t": 6,
+      "texte": "Chaque date papier saisie satisfait son échéance. Cinq jours avant, la responsable administrative et la direction sont alertées."
+    }
+  ]
+}
