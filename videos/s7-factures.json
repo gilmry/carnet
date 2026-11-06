@@ -1,0 +1,17 @@
+{
+  "slug": "s7-factures",
+  "sprint": "Sprint 7 — Services",
+  "story": "7.3 — Facture mensuelle des ardoises (FR-202)",
+  "title": "Fin de mois : les factures en une fois, sans recopier les relevés",
+  "enregistre_le": "2026-11-06T18:34:09.562Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Fin de mois : la responsable administrative clôture les ardoises. Le mois en cours exige la confirmation de la direction."
+    },
+    {
+      "t": 9,
+      "texte": "Une facture numérotée sans trou par ardoise non vide ; l’export CSV alimente l’outil de facturation existant. Le PDF viendra avec le générateur."
+    }
+  ]
+}
