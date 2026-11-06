@@ -1,0 +1,21 @@
+{
+  "slug": "s9-signalements",
+  "sprint": "Sprint 9 — Registre de conformité",
+  "story": "10.18 et 10.19 — Signalement d’un dysfonctionnement grave (FR-223, FR-224)",
+  "title": "Le signalement grave : une fiche anonyme, transmise par la direction",
+  "enregistre_le": "2026-11-06T06:28:22.307Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La direction rédige la fiche destinée à l’ARS. Un nom ou un numéro de chambre est repéré avant l’enregistrement."
+    },
+    {
+      "t": 10,
+      "texte": "Le terme est cité avec sa position : on anonymise, ou l’on justifie un faux positif."
+    },
+    {
+      "t": 21,
+      "texte": "L’outil n’envoie rien : il garde la date et le canal de la transmission, alerte si la confirmation écrite manque après 48 h, puis suit le CVS et les actions correctives."
+    }
+  ]
+}
