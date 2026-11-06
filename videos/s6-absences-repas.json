@@ -1,0 +1,17 @@
+{
+  "slug": "s6-absences-repas",
+  "sprint": "Sprint 6 — Restauration",
+  "story": "6.2 — Absences aux repas (FR-120)",
+  "title": "La famille appelle : la cuisine compte un couvert de moins",
+  "enregistre_le": "2026-11-06T14:44:12.271Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La fille de Madame Exemple appelle : elle emmène sa mère du déjeuner de demain au dîner du lendemain."
+    },
+    {
+      "t": 13,
+      "texte": "Motif famille, sortie ou autre : jamais de santé. Le canal « téléphone » et l’auteur sont journalisés ; la cuisine ne verra que des nombres."
+    }
+  ]
+}
