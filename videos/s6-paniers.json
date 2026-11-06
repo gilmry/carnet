@@ -1,0 +1,17 @@
+{
+  "slug": "s6-paniers",
+  "sprint": "Sprint 6 — Restauration",
+  "story": "6.5 — Paniers balade (FR-123)",
+  "title": "Les paniers du marché, comptés d’après les inscrits",
+  "enregistre_le": "2026-11-06T16:25:00.819Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La sortie au marché part à 9 h : l’animatrice commande les paniers, autant que d’inscrits."
+    },
+    {
+      "t": 9,
+      "texte": "La cuisine reçoit « N paniers, départ 9 h » : ni nom ni régime. Un désistement ? On actualise, la cuisine reçoit l’écart."
+    }
+  ]
+}
