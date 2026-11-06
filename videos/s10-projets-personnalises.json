@@ -1,0 +1,17 @@
+{
+  "slug": "s10-projets-personnalises",
+  "sprint": "Sprint 10 — Conformité",
+  "story": "10.17 — Projets personnalisés : rappels et avenants (FR-222)",
+  "title": "Ne manquer aucune échéance du projet personnalisé",
+  "enregistre_le": "2026-11-06T20:16:40.438Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Pour chaque résident : recueil dans le mois de l’entrée, puis réévaluation chaque année. Les plus urgents en tête ; l’animatrice reçoit un rappel à J-30 et à J-7."
+    },
+    {
+      "t": 7,
+      "texte": "La prochaine échéance se recalcule. Les avenants sont tracés par leur date et un objet court : le contenu du projet reste sur papier."
+    }
+  ]
+}
