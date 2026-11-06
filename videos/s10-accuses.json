@@ -1,0 +1,17 @@
+{
+  "slug": "s10-accuses",
+  "sprint": "Sprint 10 — Conformité",
+  "story": "10.2 — Accusés de lecture d’une version en vigueur (FR-022)",
+  "title": "Prouver la remise du document, sans écran pour le résident",
+  "enregistre_le": "2026-11-06T19:05:46.581Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le document est remis sur papier, le résident signe ; l’accueil saisit l’accusé. La direction voit qui manque."
+    },
+    {
+      "t": 8,
+      "texte": "Une nouvelle version repart de zéro ; les anciens accusés restent attachés à l’ancienne. La liste des manquants s’imprime."
+    }
+  ]
+}
