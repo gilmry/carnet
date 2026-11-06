@@ -3,7 +3,7 @@
   "sprint": "Sprint 5 — Vie sociale",
   "story": "5.6 — Réservation des salles et du boulodrome (FR-115)",
   "title": "Une salle, un créneau, pas de double usage",
-  "enregistre_le": "2026-11-06T06:46:04.279Z",
+  "enregistre_le": "2026-11-06T07:15:58.452Z",
   "narration": [
     {
       "t": 0,
@@ -14,7 +14,7 @@
       "texte": "Le même créneau ne se prend pas deux fois — la base le garantit. Un créneau qui commence à la fin d’un autre, oui."
     },
     {
-      "t": 39,
+      "t": 38,
       "texte": "Une activité publiée réserve sa salle d’elle-même ; annulée, elle la libère."
     }
   ]

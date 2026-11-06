@@ -1,0 +1,17 @@
+{
+  "slug": "s6-ma-cantine",
+  "sprint": "Sprint 6 — Restauration",
+  "story": "6.10 — Export Ma Cantine (FR-128)",
+  "title": "Ma Cantine sans ressaisie, et sans rien envoyer à sa place",
+  "enregistre_le": "2026-11-06T07:18:42.055Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Avant le 30 mars, la direction produit l’export de l’année depuis les achats EGALIM et les pesées."
+    },
+    {
+      "t": 9,
+      "texte": "Chaque export est une version conservée. La direction le téléverse elle-même, puis note la date avec l’accusé en preuve ; un rappel arrive le 1er mars si rien n’est déclaré."
+    }
+  ]
+}
