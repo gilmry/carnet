@@ -1,0 +1,17 @@
+{
+  "slug": "s5-planning",
+  "sprint": "Sprint 5 — Vie sociale",
+  "story": "5.9 — Planning et feuilles d’inscription papier (FR-118)",
+  "title": "Le planning papier, toujours là pour qui n’a pas d’écran",
+  "enregistre_le": "2026-11-06T06:44:57.518Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le planning des 15 jours s’imprime en grands caractères pour le panneau et la distribution, avec la date de sa version."
+    },
+    {
+      "t": 8,
+      "texte": "La feuille d’inscription : titre, date, rendez-vous, places et un code lisible pour la saisie ; chacun y écrit son nom, rien n’est pré-rempli."
+    }
+  ]
+}
