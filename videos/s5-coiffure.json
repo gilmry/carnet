@@ -1,0 +1,17 @@
+{
+  "slug": "s5-coiffure",
+  "sprint": "Sprint 5 — Vie sociale",
+  "story": "5.5 — Rendez-vous coiffure (FR-114)",
+  "title": "Le jeudi de la coiffeuse, sans un coup de téléphone perdu",
+  "enregistre_le": "2026-11-06T13:44:04.864Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le jeudi après-midi, créneau par créneau : Madame Exemple a demandé un rendez-vous à l’accueil."
+    },
+    {
+      "t": 10,
+      "texte": "La coiffeuse n’a pas de compte : la liste du jeudi s’imprime, heure, nom et chambre. Un jeudi fermé liste ses rendez-vous à reporter."
+    }
+  ]
+}
