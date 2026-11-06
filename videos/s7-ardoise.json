@@ -1,0 +1,17 @@
+{
+  "slug": "s7-ardoise",
+  "sprint": "Sprint 7 — Services",
+  "story": "7.2 — Ardoise bar et pressing (FR-201)",
+  "title": "L’ardoise du bar, au prix du référentiel, sans carte ni relevé manuel",
+  "enregistre_le": "2026-11-06T18:02:09.815Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Madame Exemple prend deux cafés au bar : l’accueil les porte sur son ardoise du mois."
+    },
+    {
+      "t": 9,
+      "texte": "Le prix vient du référentiel unique, copié à la saisie. Une erreur ? La ligne s’annule avec motif, elle ne disparaît jamais. Le relevé s’imprime en grands caractères."
+    }
+  ]
+}
