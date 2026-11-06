@@ -1,0 +1,17 @@
+{
+  "slug": "s10-confiance",
+  "sprint": "Sprint 10 — Conformité",
+  "story": "10.6 — Formulaire de désignation de la personne de confiance (FR-026)",
+  "title": "Le résident signe sur papier, l’accueil saisit : une seule personne de confiance active",
+  "enregistre_le": "2026-11-06T19:42:53.352Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le formulaire s’imprime en grands caractères, avec les mentions légales. Le résident le remplit et le signe avec la personne désignée."
+    },
+    {
+      "t": 8,
+      "texte": "Un nouveau formulaire remplace l’ancien, qui reste à l’historique ; une révocation signée se saisit d’un clic. Rien de médical n’est enregistré."
+    }
+  ]
+}
