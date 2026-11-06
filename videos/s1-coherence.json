@@ -1,0 +1,17 @@
+{
+  "slug": "s1-coherence",
+  "sprint": "Sprint 1 — Contenu public",
+  "story": "3.8 — Diffusion du référentiel et contrôle de cohérence (FR-019)",
+  "title": "Un tarif, une seule saisie : le contrôle avant le gate",
+  "enregistre_le": "2026-11-06T07:33:47.669Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Un tarif saisi une fois au référentiel s’affiche partout par son jeton ; il change sur le site le jour de sa date d’effet."
+    },
+    {
+      "t": 8,
+      "texte": "Le contrôle de cohérence repère tout montant saisi en dur et tout jeton sans valeur : zéro écart attendu avant le gate."
+    }
+  ]
+}
