@@ -1,0 +1,17 @@
+{
+  "slug": "s10-modeles-contrats",
+  "sprint": "Sprint 10 — Conformité",
+  "story": "10.4 — Modèles de contrat de séjour et de DIPC (FR-024)",
+  "title": "Le contrat sort du registre et du référentiel, prêt à signer",
+  "enregistre_le": "2026-11-07T23:24:27.130Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La direction publie un modèle de contrat de séjour avec ses champs : résident, chambre, date d’entrée, tarif. Le tarif est obligatoire."
+    },
+    {
+      "t": 12,
+      "texte": "Moins de deux mois de séjour : un DIPC, sinon un contrat de séjour, comme l’impose la loi. Le PDF s’imprime pour la signature, le suivi des délais s’ouvre, et un tarif qui change ensuite passe par un avenant."
+    }
+  ]
+}
