@@ -1,0 +1,21 @@
+{
+  "slug": "s2-plaquettes",
+  "sprint": "Sprint 2 — Conformité documentaire",
+  "story": "3.9 — Plaquettes générées depuis le référentiel (FR-020)",
+  "title": "La plaquette du séjour temporaire, à jour en un clic",
+  "enregistre_le": "2026-11-07T00:14:55.145Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Plus de plaquette retouchée à la main : l’accueil la génère depuis le référentiel, avec les tarifs du jour (ici la villa 85, valeurs fictives)."
+    },
+    {
+      "t": 8,
+      "texte": "Un PDF A4 sort, avec sa date et son numéro de version en pied de page ; il est rangé dans l’espace privé de la résidence."
+    },
+    {
+      "t": 17,
+      "texte": "La même plaquette en grands caractères, noir sur blanc ; chaque version reste téléchargeable. Sans tarif d’hébergement saisi, la génération est refusée plutôt que d’imprimer une plaquette trouée."
+    }
+  ]
+}

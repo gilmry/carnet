@@ -1,0 +1,21 @@
+{
+  "slug": "s8-consentements",
+  "sprint": "Sprint 8 — Familles & communication",
+  "story": "9.3 — Consentement à l’image (FR-212)",
+  "title": "Savoir, avant toute photo, qui peut apparaître",
+  "enregistre_le": "2026-11-07T00:36:18.503Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Pour chaque résident, trois portées : le journal de vie lu par les proches, le site, l’écran du hall. Sans formulaire signé, « aucun consentement valide »."
+    },
+    {
+      "t": 6,
+      "texte": "Le formulaire s’imprime en grands caractères ; le résident coche et signe à la main, sans jamais utiliser d’écran."
+    },
+    {
+      "t": 14,
+      "texte": "Le formulaire numérisé est enregistré : le journal de vie est accordé. Un retrait s’ajoute à l’historique, rien n’est effacé, et les publications futures sont bloquées."
+    }
+  ]
+}

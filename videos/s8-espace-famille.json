@@ -1,0 +1,21 @@
+{
+  "slug": "s8-espace-famille",
+  "sprint": "Sprint 8 — Familles & communication",
+  "story": "9.2 — Espace famille / mandataire (FR-211)",
+  "title": "Des nouvelles sans téléphoner à l’accueil",
+  "enregistre_le": "2026-11-07T00:35:55.450Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Claire ouvre le lien reçu par courriel : phrase de passe et second facteur, comme le personnel."
+    },
+    {
+      "t": 15,
+      "texte": "Son espace montre les activités de son parent, l’agenda des 15 prochains jours et ses factures en PDF : rien d’autre, en lecture seule, en grands caractères."
+    },
+    {
+      "t": 21,
+      "texte": "Chaque lecture de facture est tracée ; si l’accès est révoqué ou expire, l’espace se vide à la requête suivante."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "s8-proches",
+  "sprint": "Sprint 8 — Familles & communication",
+  "story": "9.1 — Rattacher une famille ou un mandataire à un résident (FR-210)",
+  "title": "Un accès pour la famille, sans ouvrir plus que nécessaire",
+  "enregistre_le": "2026-11-07T00:35:26.576Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La responsable administrative choisit le résident, saisit le proche et coche ce qu’il peut voir : l’agenda, le journal de vie, les factures… rien d’autre."
+    },
+    {
+      "t": 8,
+      "texte": "Le proche reçoit une invitation : mot de passe et second facteur, comme le personnel. Un courrier s’imprime pour le résident, qui peut s’opposer d’un mot à l’accueil ; la révocation coupe l’accès tout de suite."
+    }
+  ]
+}
