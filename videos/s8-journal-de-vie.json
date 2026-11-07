@@ -1,0 +1,21 @@
+{
+  "slug": "s8-journal-de-vie",
+  "sprint": "Sprint 8 — Familles & communication",
+  "story": "9.4 — Journal de vie avec contrôle des consentements (FR-213)",
+  "title": "Partager une photo sans jamais enfreindre un refus",
+  "enregistre_le": "2026-11-07T02:00:56.755Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Photo, légende, puis les résidents reconnaissables : le flux de l’animatrice."
+    },
+    {
+      "t": 9,
+      "texte": "Avant de publier, Carnet vérifie le consentement « journal de vie » de chaque résident reconnaissable. Un seul refus, et la publication est bloquée avec son nom."
+    },
+    {
+      "t": 17,
+      "texte": "La photo, ré-encodée sans ses métadonnées, n’est servie qu’aux proches autorisés. Si un consentement est retiré, elle passe « à revoir » et disparaît des espaces famille."
+    }
+  ]
+}
