@@ -3,7 +3,7 @@
   "sprint": "Sprint 8 — Familles & communication",
   "story": "9.6 — Enquête de satisfaction (FR-215)",
   "title": "L’enquête de satisfaction, du papier aux résultats",
-  "enregistre_le": "2026-11-07T18:10:42.918Z",
+  "enregistre_le": "2026-11-07T22:10:01.043Z",
   "narration": [
     {
       "t": 0,
@@ -15,7 +15,7 @@
     },
     {
       "t": 26,
-      "texte": "Moyennes, répartitions et textes libres, sans lien vers un répondant ; le tableau de bord en tire l’indicateur de satisfaction."
+      "texte": "Moyennes, répartitions et textes libres, sans lien vers un répondant, à télécharger en PDF pour le conseil de la vie sociale ; le tableau de bord en tire l’indicateur de satisfaction."
     }
   ]
 }
