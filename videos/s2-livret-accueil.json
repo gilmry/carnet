@@ -1,0 +1,21 @@
+{
+  "slug": "s2-livret-accueil",
+  "sprint": "Sprint 2 — Documents légaux",
+  "story": "10.3 — Livret d’accueil généré avec annexes (FR-023)",
+  "title": "Un livret d’accueil toujours cohérent avec le référentiel",
+  "enregistre_le": "2026-11-07T03:04:28.377Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le livret reprend les tarifs, horaires et contacts du référentiel : aucun montant recopié à la main."
+    },
+    {
+      "t": 8,
+      "texte": "Les annexes en vigueur suivent dans l’ordre, avec le formulaire de personne de confiance ; une version en grands caractères est produite aussi. Le livret naît en brouillon : la direction le met en vigueur."
+    },
+    {
+      "t": 14,
+      "texte": "Si une annexe change, le livret est marqué obsolète : il suffit de le régénérer."
+    }
+  ]
+}
