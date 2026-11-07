@@ -1,0 +1,21 @@
+{
+  "slug": "s8-messages-familles",
+  "sprint": "Sprint 8 — Familles & communication",
+  "story": "9.5 — Messages groupés aux familles (FR-214)",
+  "title": "Informer toutes les familles en une fois",
+  "enregistre_le": "2026-11-07T01:20:12.923Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La sortie au marché est annulée : au lieu d’appeler chaque famille, la direction écrit un seul message."
+    },
+    {
+      "t": 10,
+      "texte": "Le brouillon ne part pas tout seul : il faut un clic humain, même s’il a été préparé par l’assistant."
+    },
+    {
+      "t": 18,
+      "texte": "Chaque proche reçoit son propre courriel, sans voir les autres adresses, et le retrouve dans son espace. Les résidents sans proche sont signalés pour une information papier."
+    }
+  ]
+}
