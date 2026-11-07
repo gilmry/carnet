@@ -1,0 +1,21 @@
+{
+  "slug": "s4-2b-acompte-en-ligne",
+  "sprint": "Sprint 4 — Séjours temporaires",
+  "story": "4.6 — Réservation en ligne avec acompte : paiement chez le prestataire (FR-104/2)",
+  "title": "L’acompte payé en ligne, sans donnée de carte chez la résidence",
+  "enregistre_le": "2026-11-07T04:27:04.824Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le client paie l’acompte en ligne : il part chez le prestataire de paiement, ses coordonnées bancaires ne passent jamais par Carnet."
+    },
+    {
+      "t": 8,
+      "texte": "En recette, un simulateur remplace le prestataire : on choisit un paiement accepté."
+    },
+    {
+      "t": 16,
+      "texte": "La notification signée du prestataire confirme la réservation ; une notification falsifiée serait refusée. L’accueil peut rembourser tout ou partie de l’acompte."
+    }
+  ]
+}
