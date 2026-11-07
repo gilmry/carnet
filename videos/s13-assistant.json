@@ -1,0 +1,29 @@
+{
+  "slug": "s13-assistant",
+  "sprint": "Sprint 10 — Assistant",
+  "story": "13.1, 13.5 à 13.10 — Assistant des référents : voix, photo de feuille, proposition, confirmation, homonymes, droits (FR-229, FR-233, FR-234, FR-235, FR-236, FR-237, FR-238)",
+  "title": "L’assistant propose, l’animatrice décide",
+  "enregistre_le": "2026-11-07T14:13:18.082Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "À la tablette, l’animatrice parle à l’assistant, ou tape si le micro n’est pas là : « pour qui, quoi, quand »."
+    },
+    {
+      "t": 9,
+      "texte": "L’assistant répète la proposition en grand et à voix haute. Rien n’est noté sans « Oui » ; deux résidents du même nom, il demande lequel."
+    },
+    {
+      "t": 17,
+      "texte": "« Non » : rien n’est écrit. Chaque « Oui » est journalisé avec son auteur, son heure et le canal voix."
+    },
+    {
+      "t": 26,
+      "texte": "La santé n’est pas de son ressort : il le dit, et n’appelle rien."
+    },
+    {
+      "t": 35,
+      "texte": "La feuille cochée par les résidents, photographiée : une proposition par ligne ; la ligne douteuse est « à vérifier » et ne se confirme jamais en lot. La photo n’est pas gardée."
+    }
+  ]
+}
