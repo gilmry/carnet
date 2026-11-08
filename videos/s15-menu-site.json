@@ -1,0 +1,25 @@
+{
+  "slug": "s15-menu-site",
+  "sprint": "Sprint 15 — Constructeur de pages",
+  "story": "3.13 — Menu du site construit depuis les pages publiées (FR-034)",
+  "title": "Le menu suit les pages publiées",
+  "enregistre_le": "2026-11-08T22:44:52.763Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Le menu du site se construit tout seul depuis les pages publiées ; une page en brouillon n’y entre jamais."
+    },
+    {
+      "t": 8,
+      "texte": "La direction choisit l’ordre, le libellé, une page parente pour former un sous-menu, ou masque une page."
+    },
+    {
+      "t": 16,
+      "texte": "Un seul niveau de sous-menu, pour rester lisible ; une page parente retirée laisse ses pages au premier niveau."
+    },
+    {
+      "t": 25,
+      "texte": "Sur téléphone, le menu se replie derrière un bouton, utilisable au clavier et sans script."
+    }
+  ]
+}
