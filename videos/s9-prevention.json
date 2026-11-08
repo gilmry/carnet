@@ -3,7 +3,7 @@
   "sprint": "Sprint 9 — Registre de conformité",
   "story": "10.21 — Traçabilité des actions de prévention (FR-226)",
   "title": "Le forfait autonomie justifié, action par action",
-  "enregistre_le": "2026-11-08T13:41:26.102Z",
+  "enregistre_le": "2026-11-08T14:43:50.700Z",
   "narration": [
     {
       "t": 0,
@@ -12,6 +12,18 @@
     {
       "t": 13,
       "texte": "Le bilan de l’année se constitue tout seul ; exporté en CSV, sa remise réalise l’obligation au registre de conformité."
+    },
+    {
+      "t": 22,
+      "texte": "Côté agenda, l’animatrice coche « prévention » sur l’atelier : il rejoindra le bilan une fois tenu."
+    },
+    {
+      "t": 38,
+      "texte": "L’atelier tenu attend son report : le nombre d’inscrits sert de comptage, sans aucun nom."
+    },
+    {
+      "t": 46,
+      "texte": "Reporté une seule fois : l’action rejoint le bilan du forfait autonomie."
     }
   ]
 }
