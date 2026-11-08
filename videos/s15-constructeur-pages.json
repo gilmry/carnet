@@ -1,9 +1,9 @@
 {
   "slug": "s15-constructeur-pages",
   "sprint": "Sprint 15 — Constructeur de pages",
-  "story": "3.10 et 3.11 — Page composée de sections et de boîtes, éditeur visuel souris et clavier (FR-031, FR-032)",
+  "story": "3.10, 3.11 et 3.12 — Page composée de sections et de boîtes, éditeur visuel souris et clavier, prévisualisation en trois largeurs (FR-031, FR-032, FR-033)",
   "title": "La page se compose comme une affiche",
-  "enregistre_le": "2026-11-08T20:45:54.026Z",
+  "enregistre_le": "2026-11-08T21:45:01.381Z",
   "narration": [
     {
       "t": 0,
@@ -31,6 +31,14 @@
     },
     {
       "t": 51,
+      "texte": "La prévisualisation rend le brouillon avec les mêmes composants que le site publié, aux couleurs de la résidence."
+    },
+    {
+      "t": 58,
+      "texte": "En largeur téléphone, les colonnes s’empilent ; en grands caractères, tout grandit."
+    },
+    {
+      "t": 66,
       "texte": "Le texte riche est filtré par le serveur : ni script, ni style libre. Deux auteurs en même temps : le second est averti, et un remplacement est tracé au journal."
     }
   ]
