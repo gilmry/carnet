@@ -1,0 +1,37 @@
+{
+  "slug": "s15-constructeur-pages",
+  "sprint": "Sprint 15 — Constructeur de pages",
+  "story": "3.10 et 3.11 — Page composée de sections et de boîtes, éditeur visuel souris et clavier (FR-031, FR-032)",
+  "title": "La page se compose comme une affiche",
+  "enregistre_le": "2026-11-08T20:45:54.026Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La page « Chambres » se compose en sections : une, deux ou trois colonnes, ou une image à côté d’un texte."
+    },
+    {
+      "t": 15,
+      "texte": "Dans chaque colonne, des boîtes : titre, texte riche, image de la médiathèque (texte alternatif obligatoire), bouton."
+    },
+    {
+      "t": 22,
+      "texte": "À la souris, une boîte se glisse vers une autre colonne ; le brouillon s’enregistre tout seul."
+    },
+    {
+      "t": 31,
+      "texte": "Au clavier, « Monter », « Descendre » et « Déplacer vers » font la même chose, et le lecteur d’écran l’annonce."
+    },
+    {
+      "t": 39,
+      "texte": "Supprimer se confirme dans la page…"
+    },
+    {
+      "t": 45,
+      "texte": "… et « Annuler » remet la boîte à sa place."
+    },
+    {
+      "t": 51,
+      "texte": "Le texte riche est filtré par le serveur : ni script, ni style libre. Deux auteurs en même temps : le second est averti, et un remplacement est tracé au journal."
+    }
+  ]
+}

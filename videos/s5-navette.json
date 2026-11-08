@@ -3,7 +3,7 @@
   "sprint": "Sprint 5 — Vie sociale",
   "story": "5.4 — Navette liée aux sorties (FR-113)",
   "title": "Le minibus du mercredi, une place par résident, une feuille pour le conducteur",
-  "enregistre_le": "2026-11-08T19:29:26.601Z",
+  "enregistre_le": "2026-11-08T20:24:55.997Z",
   "narration": [
     {
       "t": 0,
@@ -14,7 +14,7 @@
       "texte": "La sortie au marché est liée au trajet du jour : chaque inscrit y a sa place, sans double saisie."
     },
     {
-      "t": 25,
+      "t": 24,
       "texte": "La feuille de route du conducteur : nom et chambre en grands caractères, rien d’autre."
     }
   ]
