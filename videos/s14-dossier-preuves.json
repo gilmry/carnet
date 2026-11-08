@@ -1,0 +1,17 @@
+{
+  "slug": "s14-dossier-preuves",
+  "sprint": "Sprint 14 — Évaluation HAS",
+  "story": "10.25 — Référentiel HAS et structure du dossier de preuves (FR-319)",
+  "title": "Le dossier de preuves, critère par critère, au fil de l’eau",
+  "enregistre_le": "2026-11-08T09:22:54.022Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La plateforme importe le référentiel HAS une fois ; il est copié dans chaque résidence, qui voit ses critères par chapitre et thématique, les impératifs marqués."
+    },
+    {
+      "t": 8,
+      "texte": "Les impératifs encore sans preuve passent en tête : on sait ce qui manque, bien avant la venue de l’évaluateur."
+    }
+  ]
+}
