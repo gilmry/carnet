@@ -1,0 +1,21 @@
+{
+  "slug": "s15-boites-vivantes",
+  "sprint": "Sprint 15 — Constructeur de pages",
+  "story": "3.15 — Boîtes encadré, vidéo, citation, séparateur et boîtes vivantes (FR-031)",
+  "title": "Des boîtes qui restent à jour toutes seules",
+  "enregistre_le": "2026-11-09T03:02:24.738Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Encadré, citation, séparateur : de quoi mettre en valeur sans toucher au style."
+    },
+    {
+      "t": 7,
+      "texte": "Une vidéo de la médiathèque, avec ses sous-titres ou sa transcription ; jamais une vidéo d’un service tiers."
+    },
+    {
+      "t": 16,
+      "texte": "Une boîte vivante — agenda, tarifs du jour, menu, places en séjour — se met à jour chaque jour sur le site, sans republier."
+    }
+  ]
+}
