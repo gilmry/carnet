@@ -3,18 +3,18 @@
   "sprint": "Sprint 15 — Constructeur de pages",
   "story": "3.14 — Publication par build : constructeur, volume et bascule sans coupure (FR-035)",
   "title": "Publier reconstruit le site, sans coupure",
-  "enregistre_le": "2026-11-09T08:46:19.126Z",
+  "enregistre_le": "2026-11-09T10:03:06.099Z",
   "narration": [
     {
       "t": 0,
       "texte": "Chaque publication pose une demande de build ; des publications rapprochées n’en font qu’une."
     },
     {
-      "t": 17,
+      "t": 18,
       "texte": "Le constructeur, à part et sans accès à la base, construit une nouvelle version puis bascule le site d’un coup."
     },
     {
-      "t": 23,
+      "t": 24,
       "texte": "Un build en échec laisse l’ancien site en ligne et dit pourquoi ; on peut revenir à la version précédente."
     }
   ]
