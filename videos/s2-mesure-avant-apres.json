@@ -3,7 +3,7 @@
   "sprint": "Sprint 3 — Mesure et projet",
   "story": "10.10 et 10.11 — Relevé chronométré et tableau avant/après (FR-029, FR-030)",
   "title": "Combien d’heures l’outil rend à l’accueil",
-  "enregistre_le": "2026-11-09T07:16:29.918Z",
+  "enregistre_le": "2026-11-09T08:16:08.608Z",
   "narration": [
     {
       "t": 0,
@@ -14,7 +14,7 @@
       "texte": "Import en deux temps : un aperçu d’abord, rien n’est enregistré sans confirmation."
     },
     {
-      "t": 39,
+      "t": 40,
       "texte": "Tableau avant/après : heures libérées par semaine, sans aucune valorisation en euros (données fictives)."
     }
   ]
