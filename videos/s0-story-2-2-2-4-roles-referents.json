@@ -1,0 +1,21 @@
+{
+  "slug": "s0-story-2-2-2-4-roles-referents",
+  "sprint": "Sprint 0 — Fondations",
+  "story": "2.2 et 2.4 — Rôles et droits par capacité, délégation « référent » (FR-009, FR-011)",
+  "title": "Chacun ses droits, et des référents désignés",
+  "enregistre_le": "2026-11-12T05:26:03.408Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Chaque compte reçoit un rôle : direction, accueil, cuisine, maintenance, animation… Un rôle ouvre des droits précis, rien de plus ; le serveur les revérifie à chaque requête."
+    },
+    {
+      "t": 9,
+      "texte": "La direction désigne un référent pour une période : il peut alors inscrire un résident ou saisir pour lui, par la voix ou la photo d’une feuille."
+    },
+    {
+      "t": 17,
+      "texte": "La délégation est journalisée ; la retirer demande une confirmation. Sans elle, une saisie « pour le compte de » est refusée."
+    }
+  ]
+}

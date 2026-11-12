@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Configurer une résidence dans Carnet</title>
+  <meta name="description" content="Guide pas à pas pour mettre en route une résidence autonomie dans Carnet : compte de la direction, espaces, équipe, référentiel, résidents, site public, séjours, restauration, vie sociale et conformité." />
+  <style>
+    :root { color-scheme: light dark; --fond: #f6f7f9; --carte: #fff; --texte: #111827; --doux: #4b5563; --trait: #e5e7eb; --accent: #1f6f3f; }
+    @media (prefers-color-scheme: dark) { :root { --fond: #0f172a; --carte: #1e293b; --texte: #e5e7eb; --doux: #cbd5e1; --trait: #334155; --accent: #6fcf97; } }
+    body { font: 17px/1.6 system-ui, sans-serif; margin: 0; background: var(--fond); color: var(--texte); }
+    header { background: #1f2937; color: #fff; padding: 24px 16px; }
+    header h1 { margin: 0 0 6px; font-size: 24px; }
+    header p { margin: 0; opacity: .9; font-size: 15px; max-width: 920px; }
+    main { max-width: 920px; margin: 24px auto; padding: 0 16px; display: grid; gap: 20px; }
+    section { min-width: 0; background: var(--carte); border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08); padding: 16px 20px; }
+    h2 { margin: 0 0 8px; font-size: 20px; }
+    h2 .n { display: inline-block; min-width: 1.8em; color: var(--accent); }
+    h3 { font-size: 16px; margin: 16px 0 4px; }
+    .qui { font-size: 14px; color: var(--doux); margin: 0 0 10px; }
+    code, kbd { font-size: 14px; background: rgba(127,127,127,.15); padding: 1px 5px; border-radius: 4px; }
+    pre { background: rgba(127,127,127,.12); padding: 10px 12px; border-radius: 8px; overflow-x: auto; font-size: 14px; }
+    .note { border-left: 4px solid var(--accent); padding: 6px 12px; margin: 10px 0; background: rgba(31,111,63,.08); }
+    .voir { font-size: 14px; }
+    nav ol { columns: 2; column-gap: 32px; padding-left: 1.4em; margin: 0; }
+    @media (max-width: 640px) { nav ol { columns: 1; } }
+    table { border-collapse: collapse; width: 100%; font-size: 15px; display: block; overflow-x: auto; }
+    td code, p code, li code { overflow-wrap: anywhere; }
+    th, td { border-bottom: 1px solid var(--trait); padding: 6px 8px; text-align: left; vertical-align: top; }
+    a { color: var(--accent); }
+    header a { color: #fff; }
+    footer { text-align: center; color: var(--doux); font-size: 13px; padding: 24px 16px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Configurer une résidence dans Carnet, étape par étape</h1>
+    <p><a href="index.html">← Vitrine</a></p>
+    <p>Ce guide accompagne la direction d'une résidence autonomie, de l'activation de son compte jusqu'au premier jour d'utilisation. Suivez les étapes dans l'ordre : chacune s'appuie sur la précédente. Chaque étape renvoie à la scène filmée qui la montre dans la <a href="index.html">vitrine</a>. Les exemples sont fictifs.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Avant de commencer</h2>
+      <ul>
+        <li><strong>Un téléphone</strong> avec une application d'authentification (FreeOTP, Google Authenticator, Microsoft Authenticator…). Carnet demande un code à 6 chiffres à chaque connexion du personnel.</li>
+        <li><strong>La liste de vos chambres, logements temporaires et salles</strong>, avec leur numéro et leur capacité.</li>
+        <li><strong>La liste de l'équipe</strong> : nom, prénom, adresse de courriel professionnelle et fonction de chacun.</li>
+        <li><strong>Vos tarifs en vigueur</strong>, vos horaires et vos contacts utiles.</li>
+        <li><strong>La liste des résidents</strong> : nom, prénom, chambre, date d'entrée. Rien de plus.</li>
+      </ul>
+      <p class="note"><strong>Carnet ne contient aucune donnée de santé.</strong> Ni diagnostic, ni traitement, ni GIR, ni régime, ni allergie par personne. Les allergènes sont affichés par plat ; les régimes restent sur papier, en cuisine.</p>
+      <nav aria-label="Étapes">
+        <ol>
+          <li><a href="#e1">Activer le compte de la direction</a></li>
+          <li><a href="#e2">Renseigner l'établissement</a></li>
+          <li><a href="#e3">Configurer les lieux</a></li>
+          <li><a href="#e4">Créer les comptes de l'équipe</a></li>
+          <li><a href="#e5">Désigner les référents</a></li>
+          <li><a href="#e6">Choisir les modules</a></li>
+          <li><a href="#e7">Mettre aux couleurs de la résidence</a></li>
+          <li><a href="#e8">Saisir le référentiel</a></li>
+          <li><a href="#e9">Enregistrer les résidents</a></li>
+          <li><a href="#e10">Publier les documents obligatoires</a></li>
+          <li><a href="#e11">Publier les modèles de contrat</a></li>
+          <li><a href="#e12">Préparer les séjours temporaires</a></li>
+          <li><a href="#e13">Mettre en route la restauration</a></li>
+          <li><a href="#e14">Lancer la vie sociale</a></li>
+          <li><a href="#e15">Allumer l'écran du hall</a></li>
+          <li><a href="#e16">Construire et ouvrir le site public</a></li>
+          <li><a href="#e17">Poser le registre de conformité et le CVS</a></li>
+          <li><a href="#e18">Vérifier avant le premier jour</a></li>
+        </ol>
+      </nav>
+    </section>
+
+    <section id="e1">
+      <h2><span class="n">1</span>Activer le compte de la direction</h2>
+      <p class="qui">Qui : la direction, à partir du courriel reçu. La résidence est créée au préalable par l'équipe Carnet (nom, adresse publique, adresse postale, gestionnaire, et le premier compte de direction).</p>
+      <ol>
+        <li>Ouvrez le lien d'invitation reçu par courriel. Il est personnel, ne sert qu'une fois et reste valable <strong>72 heures</strong>. Passé ce délai, demandez à l'équipe Carnet de le renvoyer.</li>
+        <li><strong>Mot de passe</strong> : au moins 12 caractères. « Une phrase facile à retenir convient très bien. »</li>
+        <li><strong>Second facteur</strong> : scannez le QR code avec l'application d'authentification de votre téléphone (ou saisissez la clé affichée), puis entrez le « Code à 6 chiffres » et cliquez sur « Confirmer ».</li>
+        <li><strong>Codes de récupération</strong> : dix codes s'affichent une seule fois. Rangez-les en lieu sûr : chacun ne sert qu'une fois, le jour où le téléphone est perdu.</li>
+        <li>« Continuer » vous mène aux paramètres de l'établissement (étape 2).</li>
+      </ol>
+      <p>À chaque connexion : mot de passe, puis code du téléphone. La session dure 12 heures. Après cinq essais manqués, le compte se verrouille un moment, de plus en plus longtemps.</p>
+      <p class="voir">Voir la scène : <a href="index.html#s0-story-1-4-etablissement">Un établissement naît, sa direction en prend la main</a></p>
+    </section>
+
+    <section id="e2">
+      <h2><span class="n">2</span>Renseigner l'établissement</h2>
+      <p class="qui">Écran : Paramètres. Qui modifie : la direction.</p>
+      <ul>
+        <li><strong>Téléphone de l'accueil</strong> et <strong>Courriel de contact</strong> : ils apparaissent sur le site public ; le courriel reçoit aussi certaines alertes (un relevé légionelle non conforme, par exemple).</li>
+        <li><strong>Capacité en chambres</strong>.</li>
+        <li><strong>Site public actif</strong> : laissez la case décochée tant que les pages ne sont pas prêtes (étape 16). Décochée, le site n'est pas construit et l'agenda, le menu et les documents ne sont pas publiés.</li>
+      </ul>
+      <p>Le nom, l'adresse et le gestionnaire s'affichent ici mais se modifient par l'équipe Carnet. Chaque enregistrement crée une version ; si quelqu'un a modifié entre-temps, rien n'est écrasé et l'écran demande de recharger.</p>
+    </section>
+
+    <section id="e3">
+      <h2><span class="n">3</span>Configurer les lieux</h2>
+      <p class="qui">Écran : Espaces et logements. Qui : la direction et la responsable administrative.</p>
+      <p>Chaque chambre, logement temporaire et espace commun reçoit un numéro unique (20 caractères au plus). Saisissez-les un à un (« Ajouter un espace »), ou importez-les d'un coup avec un fichier CSV :</p>
+      <pre>numero;type;capacite_personnes;reservable
+101;chambre_simple;;
+102;chambre_double;;
+villa 85;logement_temporaire;4;
+boulodrome;espace_commun;;oui</pre>
+      <table>
+        <thead><tr><th>Type</th><th>Capacité</th><th>Réservable</th></tr></thead>
+        <tbody>
+          <tr><td>chambre_simple, chambre_communicante</td><td>1 par défaut</td><td>non</td></tr>
+          <tr><td>chambre_double</td><td>2 par défaut</td><td>non</td></tr>
+          <tr><td>logement_temporaire</td><td><strong>obligatoire</strong> (personnes accueillies)</td><td>non</td></tr>
+          <tr><td>espace_commun</td><td>1 par défaut</td><td>oui ou non (« oui » : il se réserve dans Salles)</td></tr>
+        </tbody>
+      </table>
+      <ul>
+        <li>L'import est <strong>tout ou rien</strong> : une ligne fautive, un numéro en double ou un numéro déjà existant, et rien n'est créé ; chaque erreur est signalée avec sa ligne.</li>
+        <li>Le type d'un espace ne se change pas : supprimez-le et recréez-le. Un espace peut être mis « Hors service ».</li>
+        <li>Pas de prix ici : les tarifs vont dans le référentiel (étape 8).</li>
+      </ul>
+      <p class="voir">Voir la scène : <a href="index.html#s0-story-1-7-espaces">Le référentiel des chambres, logements et espaces communs</a></p>
+    </section>
+
+    <section id="e4">
+      <h2><span class="n">4</span>Créer les comptes de l'équipe</h2>
+      <p class="qui">Écran : Comptes. Qui : la direction.</p>
+      <ol>
+        <li>Pour chaque personne : « Prénom », « Nom », « Adresse professionnelle » et un « Rôle ».</li>
+        <li>« Envoyer l'invitation » : la personne reçoit son lien de 72 heures et active son compte comme à l'étape 1.</li>
+        <li>D'autres rôles s'ajoutent ensuite dans le volet « Rôles » (« Enregistrer les rôles »).</li>
+      </ol>
+      <table>
+        <thead><tr><th>Rôle</th><th>Pour qui</th></tr></thead>
+        <tbody>
+          <tr><td>direction</td><td>la direction : comptes, modules, publications, documents</td></tr>
+          <tr><td>responsable_administrative</td><td>contrats et délais, espaces, référentiel, personnel, conformité</td></tr>
+          <tr><td>accueil</td><td>réservations, résidents, inscriptions, repas, laverie, ardoise</td></tr>
+          <tr><td>animatrice</td><td>agenda, salles, écran du hall</td></tr>
+          <tr><td>cuisine</td><td>menus, pesées, EGAlim</td></tr>
+          <tr><td>maintenance</td><td>tickets, relevés légionelle et sanitaires, vérifications du bâtiment</td></tr>
+          <tr><td>gouvernante, ash, veilleuse</td><td>cahier de liaison et tâches du quotidien</td></tr>
+          <tr><td>referent</td><td>agir pour le compte de résidents (étape 5)</td></tr>
+        </tbody>
+      </table>
+      <p>« Renvoyer l'invitation » remplace le lien (l'ancien ne marche plus). <strong>Désactiver</strong> un compte ou <strong>réinitialiser son second facteur</strong> (téléphone perdu) demande de ressaisir votre code s'il date de plus de 5 minutes. Le dernier compte de direction actif ne peut être ni désactivé ni privé de ce rôle.</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s0-story-2-5-journal-comptes">Qui a fait quoi, et chacun son compte</a> · <a href="index.html#s0-story-2-2-2-4-roles-referents">Chacun ses droits, et des référents désignés</a></p>
+    </section>
+
+    <section id="e5">
+      <h2><span class="n">5</span>Désigner les référents</h2>
+      <p class="qui">Écran : Référents. Qui accorde : la direction.</p>
+      <p>Un référent inscrit un résident à une activité ou saisit pour lui, y compris par la voix ou par la photo d'une feuille d'inscription. Dans « Accorder la délégation » : le « Compte » (actif), « Du » et « au (facultatif) », puis au moins une case parmi « Inscriptions » et « Saisie pour autrui (voix, photo) ». Deux périodes qui se chevauchent pour la même personne sont fusionnées. Pour révoquer : cochez « Je confirme », puis « Révoquer ».</p>
+      <p class="voir">Voir la scène : <a href="index.html#s0-story-2-2-2-4-roles-referents">Chacun ses droits, et des référents désignés</a></p>
+    </section>
+
+    <section id="e6">
+      <h2><span class="n">6</span>Choisir les modules</h2>
+      <p class="qui">Écran : Modules. Qui : la direction seule.</p>
+      <p>N'activez que ce que la résidence utilise. Un module désactivé ferme ses écrans et disparaît du site public ; ses données sont conservées et reviennent à la réactivation.</p>
+      <table>
+        <thead><tr><th>Module</th><th>Contient</th><th>Demande</th></tr></thead>
+        <tbody>
+          <tr><td>Établissement (socle)</td><td>comptes, espaces, journal, documents légaux, contrats — toujours actif</td><td>—</td></tr>
+          <tr><td>Site public et recrutement</td><td>pages, médiathèque, <strong>référentiel</strong>, offres d'emploi</td><td>—</td></tr>
+          <tr><td>Séjours temporaires</td><td>calendrier, réservations, légionelle des logements</td><td>—</td></tr>
+          <tr><td>Vie sociale</td><td>agenda, salles</td><td>—</td></tr>
+          <tr><td>Restauration</td><td>menus, allergènes, gaspillage, EGAlim</td><td>—</td></tr>
+          <tr><td>Affichage du hall</td><td>l'écran du hall</td><td>vie sociale, restauration</td></tr>
+          <tr><td>Services</td><td>tickets, cahier de liaison, réclamations, événements indésirables</td><td>—</td></tr>
+          <tr><td>Qualité et conformité</td><td>registre, vérifications, CVS, plan bleu, personnel, indicateurs, projet</td><td>vie sociale</td></tr>
+          <tr><td>Familles</td><td>enquête de satisfaction, boîte à idées, espace famille</td><td>vie sociale</td></tr>
+          <tr><td>Admissions</td><td>non disponible pour la résidence pilote (aucune donnée de santé)</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Gardez le module <strong>Site public</strong> actif : il porte aussi le référentiel des tarifs, utilisé par les séjours, l'ardoise et les contrats.</p>
+      <p>Désactiver un module dont un autre dépend affiche un avertissement qui les nomme.</p>
+      <p class="voir">Voir la scène : <a href="index.html#s11-modules">Chaque résidence n'active que ce qu'elle utilise</a></p>
+    </section>
+
+    <section id="e7">
+      <h2><span class="n">7</span>Mettre aux couleurs de la résidence</h2>
+      <p class="qui">Écran : Personnalisation. Qui : la direction.</p>
+      <ul>
+        <li><strong>Couleur principale</strong> (bandeaux, texte blanc dessus) et <strong>couleur secondaire</strong> (liens sur fond blanc), au format <code>#rrggbb</code>.</li>
+        <li><strong>Nom affiché</strong> : 80 caractères au plus.</li>
+        <li><strong>Logo</strong> : PNG, JPEG ou WebP, 1 Mo au plus.</li>
+      </ul>
+      <p>Carnet contrôle le contraste (RGAA AA, 4,5:1). S'il est insuffisant, un bouton propose la même teinte assombrie ; vous pouvez aussi forcer vos couleurs, avec un avertissement journalisé. « Revenir au thème neutre » rétablit les couleurs d'origine. Chaque changement reconstruit le site public.</p>
+      <p class="voir">Voir la scène : <a href="index.html#s11-personnalisation">Aux couleurs de la résidence, sans sacrifier la lisibilité</a></p>
+    </section>
+
+    <section id="e8">
+      <h2><span class="n">8</span>Saisir le référentiel</h2>
+      <p class="qui">Écran : Référentiel. Qui : la direction et la responsable administrative.</p>
+      <p>Le référentiel est la source unique des tarifs, horaires, contacts et prestations. <strong>Un tarif saisi une fois est juste partout</strong> : site public, plaquettes, livret d'accueil, devis de séjour, ardoise, contrats.</p>
+      <table>
+        <thead><tr><th>Fiche</th><th>Champs</th></tr></thead>
+        <tbody>
+          <tr><td>Tarif</td><td>Clé (minuscules, par exemple <code>petit_dejeuner_invite</code>), Libellé, Montant (« 3,50 »), Par (unité, jour, nuit, semaine), Catégorie (pension, repas_invite, bar, laverie, hebergement_temporaire, frais), Date d'effet, Fin facultative</td></tr>
+          <tr><td>Horaire</td><td>Clé, Service, Jours (lundi à dimanche), Plages (« 09:00-11:00, 14:00-16:00 »)</td></tr>
+          <tr><td>Contact</td><td>Clé, Fonction, Téléphone, Messagerie</td></tr>
+          <tr><td>Prestation</td><td>Clé, Libellé, Description sans montant, Clé du tarif lié</td></tr>
+        </tbody>
+      </table>
+      <ul>
+        <li><strong>Changer un prix</strong> : ressaisissez la même clé avec une nouvelle date d'effet. L'ancienne valeur s'arrête la veille et reste dans l'historique ; une valeur déjà en vigueur ne change plus de montant.</li>
+        <li>Chaque fiche affiche son jeton (<code>{{tarif.cle}}</code>, <code>{{horaire.cle}}</code>…), à insérer dans les pages du site : un montant écrit en dur est refusé.</li>
+      </ul>
+      <p class="voir">Voir la scène : <a href="index.html#s1-referentiel-pages-medias">Un tarif saisi une fois, partout juste</a></p>
+    </section>
+
+    <section id="e9">
+      <h2><span class="n">9</span>Enregistrer les résidents</h2>
+      <p class="qui">Écran : Registre des résidents. Qui saisit : la direction, la responsable administrative, l'accueil.</p>
+      <p>« Nom », « Prénom », « Chambre » (une chambre, jamais un logement temporaire), « Entrée le » (au plus un mois à l'avance). Ou un import CSV de quatre colonnes exactement, tout ou rien :</p>
+      <pre>nom;prenom;logement;entree
+Exemple;Jeanne;101;2025-03-01</pre>
+      <ul>
+        <li>La colonne <code>logement</code> porte le numéro de la chambre, la date s'écrit AAAA-MM-JJ.</li>
+        <li>Une chambre ne reçoit pas plus de résidents que ses places.</li>
+        <li><strong>Rien de médical</strong> : une colonne de plus (un GIR, par exemple) fait refuser l'import.</li>
+        <li>Une sortie se date au jour où elle a eu lieu, avec un motif court non médical ; le résident reste dans l'historique.</li>
+        <li>L'anniversaire (jour et mois) est facultatif : le saisir vaut accord pour l'afficher au hall sous la forme « Prénom N. ».</li>
+      </ul>
+      <p class="voir">Voir la scène : <a href="index.html#s1-residents">Le registre des résidents : un nom, une chambre, rien de médical</a></p>
+    </section>
+
+    <section id="e10">
+      <h2><span class="n">10</span>Publier les documents obligatoires</h2>
+      <p class="qui">Écran : Documents. Qui : la direction.</p>
+      <p>Cinq documents : règlement de fonctionnement, charte des droits et libertés, projet d'établissement, liste des personnes qualifiées, livret d'accueil.</p>
+      <ol>
+        <li>Déposez une version en brouillon : « Numéro », « Date d'adoption », « Entrée en vigueur », « Avis du CVS (date) » et son « Sens » (favorable, avec réserves, défavorable), et le PDF.</li>
+        <li>Mettez-la en vigueur : cochez « Je confirme la mise en vigueur », puis ressaisissez votre code si demandé. La version précédente est archivée.</li>
+      </ol>
+      <p>Une seule version est en vigueur par document, et elle apparaît d'office sur le site. Le règlement de fonctionnement est refusé sans avis du CVS. Le règlement et le projet d'établissement se renouvellent tous les cinq ans : Carnet prévient six mois avant. Le livret d'accueil peut être généré depuis le référentiel.</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s2-documents-legaux">Une seule version en vigueur, publiée d'office</a> · <a href="index.html#s2-livret-accueil">Un livret d'accueil toujours cohérent</a></p>
+    </section>
+
+    <section id="e11">
+      <h2><span class="n">11</span>Publier les modèles de contrat</h2>
+      <p class="qui">Écran : Délais des contrats. Qui : la direction publie les modèles, la responsable administrative suit les délais.</p>
+      <p>Publiez un modèle de « Contrat de séjour » et un modèle de « DIPC ». Le texte utilise des champs remplis automatiquement, et aucun autre : <code>{{etablissement}}</code>, <code>{{resident}}</code>, <code>{{chambre}}</code>, <code>{{entree_le}}</code>, <code>{{fin_prevue}}</code>, <code>{{tarif}}</code> (obligatoire), <code>{{mandataire}}</code>. Moins de deux mois de séjour : un DIPC ; sinon un contrat de séjour. Les délais (remise à 15 jours, signature à un mois, avenant à six mois pour le contrat) sont suivis et rappelés.</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s10-modeles-contrats">Le contrat sort du registre et du référentiel, prêt à signer</a></p>
+    </section>
+
+    <section id="e12">
+      <h2><span class="n">12</span>Préparer les séjours temporaires</h2>
+      <p class="qui">Écrans : Calendrier, Réservations, Légionelle. Qui : la direction et la responsable administrative (fiches), l'accueil (réservations), la maintenance (relevés).</p>
+      <ol>
+        <li><strong>Tarifs</strong> : dans le référentiel, catégorie <code>hebergement_temporaire</code>, par nuit ou par semaine. À la nuit, une clé par nombre de personnes (<code>villa_1p</code>, <code>villa_2p</code>…) ; à la semaine, une seule clé, datée par saison.</li>
+        <li><strong>Fiche publique de chaque logement</strong> (écran Calendrier) : « Visible sur le site », « Description », « Location » à la nuit ou à la semaine (avec le jour d'arrivée), « Clé de tarif », photos de la médiathèque (la première sert de couverture) et équipements, un par ligne.</li>
+        <li><strong>Bornes de température</strong> (Légionelle) : par défaut, eau chaude d'au moins 50 °C et eau froide d'au plus 25 °C, à confirmer. Un relevé hors bornes alerte la direction.</li>
+        <li><strong>Purge</strong> : après plus de 7 jours sans occupant, une purge conforme est exigée avant l'arrivée ; une tâche s'ouvre trois jours avant. Sans relevé conforme, l'arrivée est bloquée ; seule la direction peut lever le blocage, avec un motif.</li>
+        <li><strong>Modèle de DIPC</strong> : publié à l'étape 11, il produit le DIPC dès la confirmation d'une réservation.</li>
+      </ol>
+      <p>Les acomptes se règlent par chèque ou virement et sont enregistrés par l'accueil : pas de paiement en ligne pour la résidence pilote. Le calendrier permet aussi de bloquer des jours (travaux, ménage, usage interne).</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s4-1-calendrier-legionelle">Le calendrier des logements, et l'eau qui doit être sûre</a> · <a href="index.html#s4-4-controle-legionelle">Pas d'arrivée sans purge</a> · <a href="index.html#s4-5-dipc">Le DIPC du séjour, prêt dès la confirmation</a></p>
+    </section>
+
+    <section id="e13">
+      <h2><span class="n">13</span>Mettre en route la restauration</h2>
+      <p class="qui">Écran : Menus. Qui : la cuisine et la direction.</p>
+      <ol>
+        <li><strong>Heures de service</strong> (Registre de composition) : 08:00, 12:00 et 18:30 par défaut, à ajuster.</li>
+        <li><strong>Semaine</strong> : du lundi au dimanche ; petit-déjeuner, déjeuner, dîner ; entrée, plat, accompagnement, fromage, dessert, plat alternatif. Un repas laissé vide n'est pas servi. « Copier la semaine précédente » fait gagner du temps.</li>
+        <li><strong>Allergènes par plat</strong> : cochez les allergènes réglementaires, ou « Aucun allergène (confirmé) ». La publication est bloquée tant qu'un plat n'est pas déclaré.</li>
+        <li>« Publier ». Une correction ensuite crée une nouvelle version, signalée « menu modifié ».</li>
+      </ol>
+      <p>Le menu publié apparaît sur le site, à l'écran du hall et dans l'espace famille. L'accueil saisit ensuite absences, invités et paniers ; la cuisine voit le nombre de couverts du lendemain, sans aucun nom.</p>
+      <p class="voir">Voir la scène : <a href="index.html#s6-menus">Le menu, saisi une fois, partout juste, allergènes compris</a></p>
+    </section>
+
+    <section id="e14">
+      <h2><span class="n">14</span>Lancer la vie sociale</h2>
+      <p class="qui">Écrans : Agenda, Salles. Qui : l'animatrice et la direction.</p>
+      <p>Pour chaque activité : « Type » (animation, atelier, sortie), « Titre », « Date », « Heure », « Places », « Lieu », « Animateur », « Description ». En option : une salle à réserver avec sa durée, « Action de prévention (forfait autonomie) », « Toutes les semaines ». « Créer en brouillon », puis « Publier ». Les salles proposées sont les espaces communs marqués réservables (étape 3) ; deux réservations ne se chevauchent jamais. Le planning et les feuilles d'inscription s'impriment en grands caractères.</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s5-agenda">Le planning des animations, une seule source</a> · <a href="index.html#s5-salles">Une salle, un créneau, pas de double usage</a></p>
+    </section>
+
+    <section id="e15">
+      <h2><span class="n">15</span>Allumer l'écran du hall</h2>
+      <p class="qui">Écran : Écran du hall. Qui : la direction et l'animatrice.</p>
+      <p>« Créer le lien », puis ouvrez-le une fois sur la télévision ou la tablette du hall : ni compte ni mot de passe. Le lien n'est montré qu'une fois ; « Remplacer le lien » révoque l'ancien (écran changé, lien égaré). L'écran affiche le menu du jour avec ses allergènes, les activités des sept jours suivants, vos messages (« Message », « Du », « au », « Afficher ») et, si vous indiquez latitude et longitude, la météo. Il n'affiche rien de nominatif, hormis les anniversaires sous la forme « Prénom N. ».</p>
+      <p class="voir">Voir la scène : <a href="index.html#s5-hall">L'écran du hall, sans téléphone ni compte</a></p>
+    </section>
+
+    <section id="e16">
+      <h2><span class="n">16</span>Construire et ouvrir le site public</h2>
+      <p class="qui">Écrans : Pages, Médiathèque, Recrutement. Qui publie : la direction et la responsable administrative ; l'animatrice peut rédiger.</p>
+      <ol>
+        <li><strong>Médiathèque</strong> : déposez les photos (JPEG, PNG ou WebP) avec leur « Texte alternatif », obligatoire. Les données de localisation sont retirées. Si des résidents sont reconnaissables, cochez « Résidents identifiables » : la direction doit attester le consentement écrit avant toute publication.</li>
+        <li><strong>Pages</strong> : « Nouvelle page », puis composez-la par sections et boîtes (texte, titre, image, bouton, encadré, vidéo, citation, et des boîtes vivantes : tarifs, agenda, menu, places du jour). Le brouillon s'enregistre seul. Prévisualisez, cochez « Je confirme la mise en ligne », puis « Publier ».</li>
+        <li><strong>Menu du site</strong> : pour chaque page publiée, son libellé, son rang, sa page parente (un seul niveau), « Masquée », ou « Accueil ».</li>
+        <li><strong>Recrutement</strong> : les offres (intitulé, type de contrat, description, date limite) se publient ou se retirent.</li>
+        <li>Cochez enfin « Site public actif » dans les paramètres (étape 2).</li>
+      </ol>
+      <p>Chaque publication demande une reconstruction du site ; des publications rapprochées sont regroupées. En cas d'échec, l'ancienne version reste en ligne et le motif s'affiche ; les trois dernières versions sont gardées, avec « Revenir à la version précédente ». Le site ne dépose aucun cookie et respecte le RGAA.</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s15-constructeur-pages">La page se compose comme une affiche</a> · <a href="index.html#s15-publication-build">Publier reconstruit le site, sans coupure</a> · <a href="index.html#s1-site-public-recrutement">Le site de la résidence, toujours à jour</a></p>
+    </section>
+
+    <section id="e17">
+      <h2><span class="n">17</span>Poser le registre de conformité et le CVS</h2>
+      <p class="qui">Écrans : Registre de conformité, Vérifications, Plan bleu, Personnel, CVS. Qui : la direction et la responsable administrative.</p>
+      <h3>Registre</h3>
+      <p>Importez les obligations légales de la résidence. L'import se fait <strong>ligne par ligne</strong> : les lignes valides sont créées, les autres sont signalées.</p>
+      <pre>code;intitule;source;regle;responsable_role;hors_outil;document_lie
+1;Projet d'établissement;Art. L311-8 CASF;mois:60;direction;non;projet_etablissement</pre>
+      <p><code>regle</code> vaut <code>mois:N</code> (périodicité), <code>date:AAAA-MM-JJ</code> (date fixe) ou <code>continue</code>. Une obligation sans objet se marque « non applicable » avec un motif. Chaque réalisation se date, avec un commentaire et sa preuve ; la prochaine échéance se recalcule. Rappels à J-60, J-30 et J-7. Sous le registre, Carnet regroupe aussi les échéances des autres modules (plans d'action, délais des contrats).</p>
+      <h3>Le reste</h3>
+      <ul>
+        <li><strong>Vérifications du bâtiment</strong> : partez d'une vérification type, réglez la périodicité en mois ; chaque réalisation porte son prestataire et son rapport, et l'échéance remonte au registre.</li>
+        <li><strong>Plan bleu</strong> : procédures, fiches réflexes, pièce rafraîchie, inventaire, contacts ; validé par la direction. Pas de liste nominative.</li>
+        <li><strong>Personnel</strong> : une référence (matricule ou initiales), salarié ou bénévole, fonction, entrée ; entretiens de parcours professionnel et attestations d'honorabilité, tracés par leur date, sans conserver le document.</li>
+        <li><strong>Dossier de preuves HAS</strong> : le référentiel d'évaluation est importé par l'équipe Carnet ; la résidence y range ensuite ses preuves et ses cotations.</li>
+      </ul>
+      <h3>Conseil de la vie sociale</h3>
+      <p>Pour chaque mandat : « Personne », « Collège » (résidents, familles, personnel, autre), « Fonction » (un seul président actif), début et fin, et un courriel facultatif : avec, la convocation part par courriel ; sans, elle s'imprime. Une réunion se convoque au moins 8 jours avant, puis son compte rendu est rédigé, validé et publié.</p>
+      <p class="voir">Voir les scènes : <a href="index.html#s9-conformite">Trente-cinq obligations, plus aucune de mémoire</a> · <a href="index.html#s9-verifications">Le registre de sécurité, à jour avant la commission</a> · <a href="index.html#s14-preuves-autoevaluation">La preuve rangée sous son critère</a> · <a href="index.html#s9-cvs">Le CVS : mandats, convocation à J-8, compte rendu validé</a></p>
+    </section>
+
+    <section id="e18">
+      <h2><span class="n">18</span>Vérifier avant le premier jour</h2>
+      <ul>
+        <li>Chaque membre de l'équipe s'est connecté au moins une fois, avec son code de téléphone.</li>
+        <li>Le site public s'ouvre, ses tarifs et son menu sont justes, les documents obligatoires y figurent.</li>
+        <li>L'écran du hall affiche le menu du jour et les activités.</li>
+        <li>Une réservation d'essai, confirmée puis annulée, a produit son DIPC et prévenu la cuisine.</li>
+        <li>Le journal d'audit (Établissement › Journal) montre ces actions, avec leurs auteurs.</li>
+      </ul>
+      <p class="note">Une question, un blocage ? Notez l'écran, l'heure et le message affiché, et transmettez-les à l'équipe Carnet : le journal d'audit permet de retrouver l'action sans données personnelles.</p>
+    </section>
+  </main>
+  <footer>Guide de mise en route de Carnet — exemples fictifs. <a href="index.html">Retour à la vitrine</a>.</footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "slug": "s4-5-dipc",
+  "sprint": "Sprint 16 — Séjours temporaires (suite)",
+  "story": "4.9 — DIPC automatique d’un séjour temporaire (FR-107)",
+  "title": "Le DIPC du séjour, prêt dès la confirmation",
+  "enregistre_le": "2026-11-12T05:43:58.494Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "La direction publie le modèle de DIPC des séjours temporaires : nom, logement, dates, prix et repas viennent de la réservation."
+    },
+    {
+      "t": 16,
+      "texte": "Une réservation confirmée avant le modèle : la direction a été prévenue. Un clic génère le DIPC ; ensuite, chaque confirmation le produit seule. Au-delà de deux mois, c’est un contrat de séjour."
+    },
+    {
+      "t": 24,
+      "texte": "Le PDF s’imprime pour une remise en main propre ou part en pièce jointe : l’accueil date la remise, puis la signature. Remis sous 15 jours, signé sous un mois, depuis l’arrivée."
+    },
+    {
+      "t": 32,
+      "texte": "Les dates sont modifiées ? On régénère : l’ancienne version reste, marquée « remplacée ». Rien ne part tout seul chez le client."
+    }
+  ]
+}

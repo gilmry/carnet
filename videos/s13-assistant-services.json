@@ -1,0 +1,25 @@
+{
+  "slug": "s13-assistant-services",
+  "sprint": "Sprint 10 — Assistant",
+  "story": "13.2, 13.3, 13.4 et 13.11 — Assistant : repas, maintenance, affichage du hall, jamais d’envoi à un tiers (FR-230, FR-231, FR-232, FR-238)",
+  "title": "Un repas, une panne, un message du hall : dits, répétés, confirmés",
+  "enregistre_le": "2026-11-12T05:37:52.784Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Un repas : l’assistant retrouve la résidente, répète l’absence avec la date et le repas. Un régime ou une allergie dictés sont refusés : ils restent sur papier, en cuisine."
+    },
+    {
+      "t": 9,
+      "texte": "Une panne : le ticket de maintenance est proposé pour la chambre dite ; un ticket semblable récent y serait lié plutôt que doublé."
+    },
+    {
+      "t": 18,
+      "texte": "Un message du hall : le texte est répété tel qu’il s’affichera, une ligne, avec ses dates."
+    },
+    {
+      "t": 27,
+      "texte": "Envoyer à un tiers n’est jamais de son ressort : il le dit, propose un brouillon, et seule la direction transmet."
+    }
+  ]
+}

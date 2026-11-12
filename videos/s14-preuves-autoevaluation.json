@@ -1,0 +1,21 @@
+{
+  "slug": "s14-preuves-autoevaluation",
+  "sprint": "Sprint 14 — Évaluation HAS",
+  "story": "10.26, 10.27 et 10.28 — Preuves rattachées aux critères, auto-évaluation continue, export pour l’évaluateur (FR-320, FR-321, FR-322)",
+  "title": "La preuve rangée sous son critère, la cotation au fil de l’eau, le dossier en un clic",
+  "enregistre_le": "2026-11-12T05:56:02.897Z",
+  "narration": [
+    {
+      "t": 0,
+      "texte": "Sous chaque critère, ses preuves : un indicateur de Carnet cité, un document légal, ou un fichier déposé — attesté sans donnée de santé."
+    },
+    {
+      "t": 11,
+      "texte": "L’équipe cote le critère de 1 à 4 ; en dessous de 3, un plan d’action avec responsable et échéance, qui remonte à côté du registre de conformité."
+    },
+    {
+      "t": 25,
+      "texte": "Le jour de l’évaluation, la direction télécharge le dossier : une archive avec un sommaire PDF par critère et chaque fichier de preuve. Elle le remet elle-même."
+    }
+  ]
+}
