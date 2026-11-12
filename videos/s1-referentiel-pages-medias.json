@@ -3,7 +3,7 @@
   "sprint": "Sprint 1 — Site et référentiel",
   "story": "3.7, 3.3 et 3.4 — Référentiel unique, pages du site, médiathèque (FR-018, FR-014, FR-015)",
   "title": "Un tarif saisi une fois, partout juste",
-  "enregistre_le": "2026-11-12T05:28:27.623Z",
+  "enregistre_le": "2026-11-12T20:51:16.288Z",
   "narration": [
     {
       "t": 0,
@@ -18,7 +18,7 @@
       "texte": "Un montant écrit en dur dans une page est refusé : il serait faux le jour où le tarif change."
     },
     {
-      "t": 49,
+      "t": 50,
       "texte": "On insère le jeton du référentiel : l’aperçu affiche la valeur du jour."
     },
     {
