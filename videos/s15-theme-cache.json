@@ -3,14 +3,14 @@
   "sprint": "Sprint 15 — Constructeur de pages",
   "story": "3.16 — Invalidation du cache et thème intégré au build (FR-035)",
   "title": "Aux bonnes couleurs dès la bascule",
-  "enregistre_le": "2026-11-14T09:44:25.630Z",
+  "enregistre_le": "2026-11-14T11:59:40.553Z",
   "narration": [
     {
       "t": 0,
       "texte": "Changer les couleurs reconstruit le site : le thème devient une feuille du site, sans script ni style en ligne."
     },
     {
-      "t": 15,
+      "t": 13,
       "texte": "Après la bascule, le constructeur purge le cache une seule fois ; un échec de purge est signalé ici, et l’ancienne page n’est servie qu’une minute au plus."
     }
   ]

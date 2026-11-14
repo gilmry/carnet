@@ -3,7 +3,7 @@
   "sprint": "Sprint 1 — Socle",
   "story": "ADR-017 — Registre des résidents (identité et chambre, sans donnée de santé)",
   "title": "Le registre des résidents : un nom, une chambre, rien de médical",
-  "enregistre_le": "2026-11-14T09:07:27.939Z",
+  "enregistre_le": "2026-11-14T11:22:57.153Z",
   "narration": [
     {
       "t": 0,
